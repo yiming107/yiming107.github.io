@@ -85,6 +85,33 @@
   abstract={Assessing the capabilities of large multimodal models (LMMs) often requires the creation of ad-hoc evaluations. Currently, building new benchmarks requires tremendous amounts of manual work for each specific analysis. This makes the evaluation process tedious and costly. In this paper, we present APEx, Automatic Programming of Experiments, the first framework for automatic benchmarking of LMMs. Given a research question expressed in natural language, APEx leverages a large language model (LLM) and a library of pre-specified tools to generate a set of experiments for the model at hand, and progressively compile a scientific report. The report drives the testing procedure: based on the current status of the investigation, APEx chooses which experiments to perform and whether the results are sufficient to draw conclusions. Finally, the LLM refines the report, presenting the results to the user in natural language. Thanks to its modularity, our framework is flexible and extensible as new tools become available. Empirically, APEx reproduces the findings of existing studies while allowing for arbitrary analyses and hypothesis testing.}
 }
 
+@inproceedings{liu2025evaluating,
+  bibtex_show={true}, 
+  title={Evaluating Attribute Confusion in Fashion Text-to-Image Generation},
+  author={Liu, Ziyue and Girella, Federico and Wang, Yiming and Talon, Davide},
+  booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
+  year={2025},
+  preview={iciap25-lvqascore.png}, 
+  html={https://intelligolabs.github.io/L-VQAScore/},
+  pdf={http://arxiv.org/abs/2507.07079},
+  code={https://github.com/intelligolabs/L-VQAScore},   
+  selected={false},
+  abstract={Despite the rapid advances in Text-to-Image (T2I) generation models, their evaluation remains challenging in domains like fashion, involving complex compositional generation. Recent automated T2I evaluation methods leverage pre-trained vision-language models to measure cross-modal alignment. However, our preliminary study reveals that they are still limited in assessing rich entity-attribute semantics, facing challenges in attribute confusion, i.e., when attributes are correctly depicted but associated to the wrong entities. To address this, we build on a Visual Question Answering (VQA) localization strategy targeting one single entity at a time across both visual and textual modalities. We propose a localized human evaluation protocol and introduce a novel automatic metric, Localized VQAScore (L-VQAScore), that combines visual localization with VQA probing both correct (reflection) and miss-localized (leakage) attribute generation. On a newly curated dataset featuring challenging compositional alignment scenarios, L-VQAScore outperforms state-of-the-art T2I evaluation methods in terms of correlation with human judgments, demonstrating its strength in capturing fine-grained entity-attribute associations. We believe L-VQAScore can be a reliable and scalable alternative to subjective evaluations.}
+}
+
+@inproceedings{dall2025diversified,
+  bibtex_show={true}, 
+  title={Diversified in-domain synthesis with efficient fine-tuning for few-shot classification},
+  author={Dall'Asen, Nicola and da Costa, Victor G Turrisi and Sebe, Nicu and Wang, Yiming and Ricci, Elisa},
+  booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
+  year={2025},
+  preview={iciap25-disef.png},
+  pdf={https://arxiv.org/abs/2312.03046},
+  code={https://github.com/vturrisi/disef},   
+  selected={false},
+  abstract={Few-shot image classification aims to learn an image classifier using only a small set of labeled examples per class. A recent research direction for improving few-shot classifiers involves augmenting the labelled samples with synthetic images created by state-of-the-art text-to-image generation models. Following this trend, we propose Diversified In-domain Synthesis with Efficient Fine-tuning (DISEF), a novel approach which addresses the generalization challenge in few-shot learning using synthetic data. DISEF consists of two main components. First, we propose a novel text-to-image augmentation pipeline that, by leveraging the real samples and their rich semantics coming from an advanced captioning model, promotes in-domain sample diversity for better generalization. Second, we emphasize the importance of effective model fine-tuning in few-shot recognition, proposing to use Low-Rank Adaptation (LoRA) for joint adaptation of the text and image encoders in a Vision Language Model. We validate our method in ten different benchmarks, consistently outperforming baselines and establishing a new state-of-the-art for few-shot classification.}
+}
+
 @inproceedings{mei2025perla,
   bibtex_show={true},
   title={PerLA: Perceptive 3D language assistant},
@@ -97,7 +124,20 @@
   code={https://github.com/gfmei/PerLA},   
   selected={true},
   abstract={Enabling Large Language Models (LLMs) to understand the 3D physical world is an emerging yet challenging research direction. Current strategies for processing point clouds typically downsample the scene or divide it into smaller parts for separate analysis. However, both approaches risk losing key local details or global contextual information. In this paper, we introduce PerLA, a 3D language assistant designed to be more perceptive to both details and context, making visual representations more informative for the LLM. PerLA captures high-resolution (local) details in parallel from different point cloud areas and integrates them with (global) context obtained from a lower-resolution whole point cloud. We present a novel algorithm that preserves point cloud locality through the Hilbert curve and effectively aggregates local-to-global information via cross-attention and a graph neural network. Lastly, we introduce a novel loss for local representation consensus to promote training stability. PerLA outperforms state-of-the-art 3D language assistants, with gains of up to +1.34 CiDEr on ScanQA for question answering, and +4.22 on ScanRefer and +3.88 on Nr3D for dense captioning.}
+}
 
+@article{dall2025collaborative,
+  bibtex_show={true},
+  title={Collaborative Neural Painting},
+  author={Dall'Asen, Nicola and Menapace, Willi and Peruzzo, Elia and Sangineto, Enver and Wang, Yiming and Ricci, Elisa},
+  journal={Computer Vision and Image Understanding (CVIU)},
+  year={2025},
+  preview={cviu-cnp.png},
+  pdf={https://arxiv.org/abs/2312.01800},
+  html={https://fodark.xyz/collaborative-neural-painting/},
+  code={https://github.com/Fodark/collaborative-neural-painting},   
+  selected={true},
+  abstract={The process of painting fosters creativity and rational planning. However, existing generative AI mostly focuses on producing visually pleasant artworks, without emphasizing the painting process. We introduce a novel task, Collaborative Neural Painting (CNP), to facilitate collaborative art painting generation between humans and machines. Given any number of user-input brushstrokes as the context or just the desired object class, CNP should produce a sequence of strokes supporting the completion of a coherent painting. Importantly, the process can be gradual and iterative, so allowing users' modifications at any phase until the completion. Moreover, we propose to solve this task using a painting representation based on a sequence of parametrized strokes, which makes it easy both editing and composition operations. These parametrized strokes are processed by a Transformer-based architecture with a novel attention mechanism to model the relationship between the input strokes and the strokes to complete. We also propose a new masking scheme to reflect the interactive nature of CNP and adopt diffusion models as the basic learning process for its effectiveness and diversity in the generative field. Finally, to develop and validate methods on the novel task, we introduce a new dataset of painted objects and an evaluation protocol to benchmark CNP both quantitatively and qualitatively. We demonstrate the effectiveness of our approach and the potential of the CNP task as a promising avenue for future research.}
 }
 
 @inproceedings{zanella2025synvita,
@@ -139,4 +179,30 @@
   code={https://github.com/Deepayan137/GaB},   
   selected={false},
   abstract={Vision-Language Models (VLMs) have shown significant promise in Visual Question Answering (VQA) tasks by leveraging web-scale multimodal datasets. However, these models often struggle with continual learning due to catastrophic forgetting when adapting to new tasks. As an effective remedy to mitigate catastrophic forgetting, rehearsal strategy uses the data of past tasks upon learning new task. However, such strategy incurs the need of storing past data, which might not be feasible due to hardware constraints or privacy concerns. In this work, we propose the first data-free method that leverages the language generation capability of a VLM, instead of relying on external models, to produce pseudo-rehearsal data for addressing continual VQA. Our proposal, named as GaB, generates pseudo-rehearsal data by posing previous task questions on new task data. Yet, despite being effective, the distribution of generated questions skews towards the most frequently posed questions due to the limited and task-specific training data. To mitigate this issue, we introduce a pseudo-rehearsal balancing module that aligns the generated data towards the ground-truth data distribution using either the question meta-statistics or an unsupervised clustering method. We evaluate our proposed method on two recent benchmarks, i.e., VQACL-VQAv2 and CLOVE-function benchmarks. GaB outperforms all the data-free baselines with substantial improvement in maintaining VQA performance across evolving tasks, while being on-par with methods with access to the past data.}
+}
+
+
+@inproceedings{mei2025vocabulary,
+  bibtex_show={true},
+  title={Vocabulary-Free 3D Instance Segmentation with Vision and Language Assistant},
+  author={Mei, Guofeng and Riz, Luigi and Wang, Yiming and Poiesi, Fabio},
+  booktitle={Proceedings of International Conference on 3D Vision (3DV)},
+  year={2025},
+  preview={threedv25-povo.png},
+  html={https://gfmei.github.io/PoVo/},
+  pdf={https://www.arxiv.org/pdf/2408.10652},
+  code={https://github.com/gfmei/PoVo},   
+  selected={false},
+  abstract={Most recent 3D instance segmentation methods are open vocabulary, offering a greater flexibility than closed-vocabulary methods. Yet, they are limited to reasoning within a specific set of concepts, \ie the vocabulary, prompted by the user at test time. In essence, these models cannot reason in an open-ended fashion, i.e., answering "List the objects in the scene.''. We introduce the first method to address 3D instance segmentation in a setting that is void of any vocabulary prior, namely a vocabulary-free setting. We leverage a large vision-language assistant and an open-vocabulary 2D instance segmenter to discover and ground semantic categories on the posed images. To form 3D instance mask, we first partition the input point cloud into dense superpoints, which are then merged into 3D instance masks. We propose a novel superpoint merging strategy via spectral clustering, accounting for both mask coherence and semantic coherence that are estimated from the 2D object instance masks. We evaluate our method using ScanNet200 and Replica, outperforming existing methods in both vocabulary-free and open-vocabulary settings.}
+}
+
+@inproceedings{ullah2025towards,
+  bibtex_show={true},
+  title={Towards a Decentralised Application-Centric Orchestration Framework in the Cloud-Edge Continuum},
+  author={Ullah, Amjad and Markus, Andras and Aslan Hac{\i}, Ismail and Kiss, Tamas and Kovacs, Jozsef and Deslauriers, James and L. Murphy, Amy, Wang, Yiming and Kao, Odej},
+  booktitle={Proceedings of IEEE International Conference on Fog and Edge Computing (ICFEC)},
+  year={2025},
+  preview={icfec25-swarmchestrate.png},
+  selected={false},
+  pdf={https://arxiv.org/abs/2504.00761}
 }
