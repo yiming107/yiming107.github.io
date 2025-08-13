@@ -14,19 +14,6 @@
   abstract={Fashion design is a complex creative process that blends visual and textual expressions. Designers convey ideas through sketches, which define spatial structure and design elements, and textual descriptions, capturing material, texture, and stylistic details. In this paper, we present LOcalized Text and Sketch (LOTS), an approach for compositional sketch-text based generation of complete fashion outlooks. LOTS leverages a global description with paired localized sketch + text information for conditioning and introduces a novel multistep-based merging strategy for diffusion adaptation. First, a Modularized Pair-Centric representation encodes sketches and text into a shared latent space while preserving independent localized features; then, a Diffusion Pair Guidance phase integrates both local and global conditioning via attention-based guidance within the diffusion model's multi-step denoising process. To validate our method, we build on Fashionpedia to release Sketchy, the first fashion dataset where multiple sketch-text pairs are provided per image. Quantitative results show LOTS achieves state-of-the-art image generation performance on both global and localized metrics, while qualitative examples and a human evaluation study highlight its unprecedented level of design customization.}
 }
 
-@inproceedings{conti2025automatic,
-  bibtex_show={true}, 
-  title={Automatic benchmarking of Large Multimodal Models via iterative experiment programming},
-  author={Conti, Alessandro and Fini, Enrico and Rota, Paolo and Wang, Yiming and Mancini, Massimiliano and Ricci, Elisa},
-  booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
-  year={2025},
-  preview={iciap25-apex.png}, 
-  pdf={https://arxiv.org/abs/2406.12321},
-  code={https://github.com/altndrr/apex},   
-  selected={false},
-  abstract={Assessing the capabilities of large multimodal models (LMMs) often requires the creation of ad-hoc evaluations. Currently, building new benchmarks requires tremendous amounts of manual work for each specific analysis. This makes the evaluation process tedious and costly. In this paper, we present APEx, Automatic Programming of Experiments, the first framework for automatic benchmarking of LMMs. Given a research question expressed in natural language, APEx leverages a large language model (LLM) and a library of pre-specified tools to generate a set of experiments for the model at hand, and progressively compile a scientific report. The report drives the testing procedure: based on the current status of the investigation, APEx chooses which experiments to perform and whether the results are sufficient to draw conclusions. Finally, the LLM refines the report, presenting the results to the user in natural language. Thanks to its modularity, our framework is flexible and extensible as new tools become available. Empirically, APEx reproduces the findings of existing studies while allowing for arbitrary analyses and hypothesis testing.}
-}
-
 @inproceedings{conti2025large,
   bibtex_show={true},
   title={On large multimodal models as open-world image classifiers},
@@ -54,18 +41,91 @@
   abstract={Vision Language Models (VLMs) have lead to major improvements in multimodal reasoning, yet they still struggle to understand user-specific concepts. Existing personalization methods address this limitation but heavily rely on training procedures, that can be either costly or unpleasant to individual users. We depart from existing work, and for the first time explore the training-free setting in the context of personalization. We propose a novel method, Retrieval and Reasoning for Personalization (R2P), leveraging internal knowledge of VLMs. First, we leverage VLMs to extract the concept fingerprint, i.e., key attributes uniquely defining the concept within its semantic class. When a query arrives, the most similar fingerprints are retrieved and scored via chain-of-thought-reasoning. To reduce the risk of hallucinations, the scores are validated through cross-modal verification at the attribute level: in case of a discrepancy between the scores, R2P refines the concept association via pairwise multimodal matching, where the retrieved fingerprints and their images are directly compared with the query. We validate R2P on two publicly available benchmarks and a newly introduced dataset, Personal Concepts with Visual Ambiguity (PerVA), for concept identification highlighting challenges in visual ambiguity. R2P consistently outperforms state-of-the-art approaches on various downstream tasks across all benchmarks. Code will be available upon acceptance.}
 }
 
+@inproceedings{taioli2025collaborative,
+  bibtex_show={true},
+  title={Collaborative Instance Object Navigation: Leveraging Uncertainty-Awareness to Minimize Human-Agent Dialogues},
+  author={Taioli, Francesco and Zorzi, Edoardo and Franchi, Gianni and Castellini, Alberto and Farinelli, Alessandro and Cristani, Marco and Wang, Yiming},
+  booktitle={Proceedings of International Conference on Computer Vision (ICCV)},
+  year={2025},
+  preview={iccv25-coin.png},
+  html={https://intelligolabs.github.io/CoIN/},  
+  pdf={https://arxiv.org/abs/2412.01250},
+  code={https://github.com/intelligolabs/CoIN},   
+  selected={true},
+  abstract={Language-driven instance object navigation assumes that human users initiate the task by providing a detailed description of the target instance to the embodied agent. While this description is crucial for distinguishing the target from visually similar instances in a scene, providing it prior to navigation can be demanding for human. To bridge this gap, we introduce Collaborative Instance object Navigation (CoIN), a new task setting where the agent actively resolve uncertainties about the target instance during navigation in natural, template-free, open-ended dialogues with human. We propose a novel training-free method, Agent-user Interaction with UncerTainty Awareness (AIUTA), which operates independently from the navigation policy, and focuses on the human-agent interaction reasoning with Vision-Language Models (VLMs) and Large Language Models (LLMs). First, upon object detection, a Self-Questioner model initiates a self-dialogue within the agent to obtain a complete and accurate observation description with a novel uncertainty estimation technique. Then, an Interaction Trigger module determines whether to ask a question to the human, continue or halt navigation, minimizing user input. For evaluation, we introduce CoIN-Bench, with a curated dataset designed for challenging multi-instance scenarios. CoIN-Bench supports both online evaluation with humans and reproducible experiments with simulated user-agent interactions. On CoIN-Bench, we show that AIUTA serves as a competitive baseline, while existing language-driven instance navigation methods struggle in complex multi-instance scenes.}
+}
+
+
+@inproceedings{jiao2025free,
+  bibtex_show={true},
+  title={Free-form language-based robotic reasoning and grasping},
+  author={Jiao, Runyu and Fasoli, Alice and Giuliari, Francesco and Bortolon, Matteo and Povoli, Sergio and Mei, Guofeng and Wang, Yiming and Poiesi, Fabio},
+  booktitle={Proceedings of International Conference on Intelligent Robots and Systems (IROS)},
+  selected={true},
+  year={2025},
+  preview={iros25-freegrasp.png},
+  html={https://tev-fbk.github.io/FreeGrasp/},  
+  pdf={https://arxiv.org/abs/2503.13082},
+  code={https://github.com/tev-fbk/FreeGrasp_code},   
+  selected={true},
+  abstract={Performing robotic grasping from a cluttered bin based on human instructions is a challenging task, as it requires understanding both the nuances of free-form language and the spatial relationships between objects. Vision-Language Models (VLMs) trained on web-scale data, such as GPT-4o, have demonstrated remarkable reasoning capabilities across both text and images. But can they truly be used for this task in a zero-shot setting? And what are their limitations? In this paper, we explore these research questions via the free-form language-based robotic grasping task, and propose a novel method, FreeGrasp, leveraging the pre-trained VLMs' world knowledge to reason about human instructions and object spatial arrangements. Our method detects all objects as keypoints and uses these keypoints to annotate marks on images, aiming to facilitate GPT-4o's zero-shot spatial reasoning. This allows our method to determine whether a requested object is directly graspable or if other objects must be grasped and removed first. Since no existing dataset is specifically designed for this task, we introduce a synthetic dataset FreeGraspData by extending the MetaGraspNetV2 dataset with human-annotated instructions and ground-truth grasping sequences. We conduct extensive analyses with both FreeGraspData and real-world validation with a gripper-equipped robotic arm, demonstrating state-of-the-art performance in grasp reasoning and execution.}
+}
+
+
+@inproceedings{conti2025automatic,
+  bibtex_show={true}, 
+  title={Automatic benchmarking of Large Multimodal Models via iterative experiment programming},
+  author={Conti, Alessandro and Fini, Enrico and Rota, Paolo and Wang, Yiming and Mancini, Massimiliano and Ricci, Elisa},
+  booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
+  year={2025},
+  preview={iciap25-apex.png}, 
+  pdf={https://arxiv.org/abs/2406.12321},
+  code={https://github.com/altndrr/apex},   
+  selected={false},
+  abstract={Assessing the capabilities of large multimodal models (LMMs) often requires the creation of ad-hoc evaluations. Currently, building new benchmarks requires tremendous amounts of manual work for each specific analysis. This makes the evaluation process tedious and costly. In this paper, we present APEx, Automatic Programming of Experiments, the first framework for automatic benchmarking of LMMs. Given a research question expressed in natural language, APEx leverages a large language model (LLM) and a library of pre-specified tools to generate a set of experiments for the model at hand, and progressively compile a scientific report. The report drives the testing procedure: based on the current status of the investigation, APEx chooses which experiments to perform and whether the results are sufficient to draw conclusions. Finally, the LLM refines the report, presenting the results to the user in natural language. Thanks to its modularity, our framework is flexible and extensible as new tools become available. Empirically, APEx reproduces the findings of existing studies while allowing for arbitrary analyses and hypothesis testing.}
+}
+
+@inproceedings{mei2025perla,
+  bibtex_show={true},
+  title={PerLA: Perceptive 3D language assistant},
+  author={Mei, Guofeng and Lin, Wei and Riz, Luigi and Wu, Yujiao and Poiesi, Fabio and Wang, Yiming},
+  booktitle={Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2025},
+  preview={cvpr25-perla.png}, 
+  html={https://gfmei.github.io/PerLA/},  
+  pdf={https://arxiv.org/abs/2411.19774},
+  code={https://github.com/gfmei/PerLA},   
+  selected={true},
+  abstract={Enabling Large Language Models (LLMs) to understand the 3D physical world is an emerging yet challenging research direction. Current strategies for processing point clouds typically downsample the scene or divide it into smaller parts for separate analysis. However, both approaches risk losing key local details or global contextual information. In this paper, we introduce PerLA, a 3D language assistant designed to be more perceptive to both details and context, making visual representations more informative for the LLM. PerLA captures high-resolution (local) details in parallel from different point cloud areas and integrates them with (global) context obtained from a lower-resolution whole point cloud. We present a novel algorithm that preserves point cloud locality through the Hilbert curve and effectively aggregates local-to-global information via cross-attention and a graph neural network. Lastly, we introduce a novel loss for local representation consensus to promote training stability. PerLA outperforms state-of-the-art 3D language assistants, with gains of up to +1.34 CiDEr on ScanQA for question answering, and +4.22 on ScanRefer and +3.88 on Nr3D for dense captioning.}
+
+}
+
 @inproceedings{zanella2025synvita,
   bibtex_show={true},
   title={Can Text-to-Video Generation help Video-Language Alignment?},
   author={Zanella, Luca and Mancini, Massimiliano and Menapace, Willi and Tulyakov, Sergey and Wang, Yiming and Ricci, Elisa},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2025},
-  preview={synvita.png},
+  preview={cvpr25-synvita.png},
   html={https://lucazanella.github.io/synvita/},  
   pdf={https://arxiv.org/abs/2503.18507},
   code={https://github.com/lucazanella/synvita/},   
   selected={true},
   abstract={Recent video-language alignment models are trained on sets of videos, each with an associated positive caption and a negative caption generated by large language models. A problem with this procedure is that negative captions may introduce linguistic biases, i.e., concepts are seen only as negatives and never associated with a video. While a solution would be to collect videos for the negative captions, existing databases lack the fine-grained variations needed to cover all possible negatives. In this work, we study whether synthetic videos can help to overcome this issue. Our preliminary analysis with multiple generators shows that, while promising on some tasks, synthetic videos harm the performance of the model on others. We hypothesize this issue is linked to noise (semantic and visual) in the generated videos and develop a method, SynViTA, that accounts for those. SynViTA dynamically weights the contribution of each synthetic video based on how similar its target caption is w.r.t. the real counterpart. Moreover, a semantic consistency loss makes the model focus on fine-grained differences across captions, rather than differences in video appearance. Experiments show that, on average, SynViTA improves over existing methods on VideoCon test sets and SSv2-Temporal, SSv2-Events, and ATP-Hard benchmarks, being a first promising step for using synthetic videos when learning video-language models.}
+}
+
+@inproceedings{talon2025seeing,
+  bibtex_show={true},
+  title={Seeing the Abstract: Translating the Abstract Language for Vision Language Models},
+  author={Talon, Davide and Girella, Federico and Liu, Ziyue and Cristani, Marco and Wang, Yiming},
+  booktitle={Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2025},
+  preview={cvpr25-act.png},
+  html={https://davidetalon.github.io/fashionact-page/},  
+  pdf={https://arxiv.org/abs/2505.03242},
+  code={https://github.com/davidetalon/fashionact},   
+  selected={true},
+  abstract={Natural language goes beyond dryly describing visual content. It contains rich abstract concepts to express feeling, creativity and properties that cannot be directly perceived. Yet, current research in Vision Language Models (VLMs) has not shed light on abstract-oriented language. Our research breaks new ground by uncovering its wide presence and under-estimated value, with extensive analysis. Particularly, we focus our investigation on the fashion domain, a highly-representative field with abstract expressions. By analyzing recent large-scale multimodal fashion datasets, we find that abstract terms have a dominant presence, rivaling the concrete ones, providing novel information, and being useful in the retrieval task. However, a critical challenge emerges: current general-purpose or fashion-specific VLMs are pre-trained with databases that lack sufficient abstract words in their text corpora, thus hindering their ability to effectively represent abstract-oriented language. We propose a training-free and model-agnostic method, Abstract-to-Concrete Translator (ACT), to shift abstract representations towards well-represented concrete ones in the VLM latent space, using pre-trained models and existing multimodal databases. On the text-to-image retrieval task, despite being training-free, ACT outperforms the fine-tuned VLMs in both same- and cross-dataset settings, exhibiting its effectiveness with a strong generalization capability. Moreover, the improvement introduced by ACT is consistent with various VLMs, making it a plug-and-play solution.}
 }
 
 @inproceedings{das2025onevlm,
