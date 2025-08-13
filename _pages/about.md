@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 
-subtitle: <img src='/assets/img/chinese_name.png' alt='chinese name' style='height:20px; vertical-align:middle;'>
+subtitle: <img src='/assets/img/chinese_name.png' alt='chinese name' style='height:30px; vertical-align:middle;'>
 
 profile:
   align: left
