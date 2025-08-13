@@ -204,5 +204,85 @@
   year={2025},
   preview={icfec25-swarmchestrate.png},
   selected={false},
-  pdf={https://arxiv.org/abs/2504.00761}
+  pdf={https://arxiv.org/abs/2504.00761},
+  abstract={The efficient management of complex distributed applications in the Cloud-Edge continuum, including their deployment on heterogeneous computing resources and run-time operations, presents significant challenges. Resource management solutions -- also called orchestrators -- play a pivotal role by automating and managing tasks such as resource discovery, optimisation, application deployment, and lifecycle management, whilst ensuring the desired system performance. This paper introduces Swarmchestrate, a decentralised, application-centric orchestration framework inspired by the self-organising principles of Swarms. Swarmchestrate addresses the end-to-end management of distributed applications, from submission to optimal resource allocation across cloud and edge providers, as well as dynamic reconfiguration. Our initial findings include the implementation of the application deployment phase within a Cloud-Edge simulation environment, demonstrating the potential of Swarmchestrate. The results offer valuable insight into the coordination of resource offerings between various providers and optimised resource allocation, providing a foundation for designing scalable and efficient infrastructures.}
+}
+
+@article{zhou2024multimodal,
+  bibtex_show={true},
+  title={Multimodal Fusion SLAM with Fourier Attention},
+  author={Zhou, Youjie and Mei, Guofeng and Wang, Yiming and Wan, Yi and Poiesi, Fabio},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2024},
+  preview={ral-fmfslam.png},
+  selected={false},
+  pdf={https://ieeexplore.ieee.org/document/10778413},
+  code={https://github.com/youjie-zhou/FMF-SLAM},
+  abstract={Visual SLAM is particularly challenging in environments affected by noise, varying lighting conditions, and darkness. Learning-based optical flow algorithms can leverage multiple modalities to address these challenges, but traditional optical flow-based visual SLAM approaches often require significant computational this http URL overcome this limitation, we propose FMF-SLAM, an efficient multimodal fusion SLAM method that utilizes fast Fourier transform (FFT) to enhance the algorithm efficiency. Specifically, we introduce a novel Fourier-based self-attention and cross-attention mechanism to extract features from RGB and depth signals. We further enhance the interaction of multimodal features by incorporating multi-scale knowledge distillation across modalities. We also demonstrate the practical feasibility of FMF-SLAM in real-world scenarios with real time performance by integrating it with a security robot by fusing with a global positioning module GNSS-RTK and global Bundle Adjustment. Our approach is validated using video sequences from TUM, TartanAir, and our real-world datasets, showcasing state-of-the-art performance under noisy, varying lighting, and dark settings.}   
+}
+
+@article{giuliari2024positional,
+  bibtex_show={true},
+  title={Positional Diffusion: Graph-based Diffusion Models for Set Ordering},
+  author={Giuliari, Francesco and Scarpellini, Gianluca and Fiorini, Stefano and Morerio, Pietro and James, Stuart and Wang, Yiming and Del Bue, Alessio},
+  journal={Pattern Recognition Letters},
+  year={2024},
+  preview={prl-posdiff.png},
+  selected={false},
+  html={https://iit-pavis.github.io/Positional_Diffusion/},
+  pdf={https://www.sciencedirect.com/science/article/pii/S0167865524002988},
+  code={https://github.com/IIT-PAVIS/Positional_Diffusion},
+  abstract={Positional reasoning is the process of ordering an unsorted set of parts into a consistent structure. To address this problem, we present Positional Diffusion, a plug-and-play graph formulation with Diffusion Probabilistic Models. Using a diffusion process, we add Gaussian noise to the set elements’ position and map them to a random position in a continuous space. Positional Diffusion learns to reverse the noising process and recover the original positions through an Attention-based Graph Neural Network. To evaluate our method, we conduct extensive experiments on three different tasks and seven datasets, comparing our approach against the state-of-the-art methods for visual puzzle-solving, sentence ordering, and room arrangement, demonstrating that our method outperforms long-lasting research on puzzle solving with up to compared to the second-best deep learning method, and performs on par against the state-of-the-art methods on sentence ordering and room rearrangement. Our work highlights the suitability of diffusion models for ordering problems and proposes a novel formulation and method for solving various ordering tasks.}  
+}
+
+@inproceedings{dall2024retrieval,
+  bibtex_show={true},
+  title={Retrieval-enriched zero-shot image classification in low-resource domains},
+  author={Dall'Asen, Nicola and Wang, Yiming and Fini, Enrico and Ricci, Elisa},
+  booktitle={Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2024},
+  preview={emnlp24-core.png},
+  selected={false},
+  html={https://fodark.xyz/CoRE/},
+  pdf={https://arxiv.org/abs/2411.00988},
+  code={https://github.com/Fodark/CoRE},
+  abstract={Low-resource domains, characterized by scarce data and annotations, present significant challenges for language and visual understanding tasks, with the latter much under-explored in the literature. Recent advancements in Vision-Language Models (VLM) have shown promising results in high-resource domains but fall short in low-resource concepts that are under-represented (e.g. only a handful of images per category) in the pre-training set. We tackle the challenging task of zero-shot low-resource image classification from a novel perspective. By leveraging a retrieval-based strategy, we achieve this in a training-free fashion. Specifically, our method, named CoRE (Combination of Retrieval Enrichment), enriches the representation of both query images and class prototypes by retrieving relevant textual information from large web-crawled databases. This retrieval-based enrichment significantly boosts classification performance by incorporating the broader contextual information relevant to the specific class. We validate our method on a newly established benchmark covering diverse low-resource domains, including medical imaging, rare plants, and circuits. Our experiments demonstrate that CoRE outperforms existing state-of-the-art methods that rely on synthetic data generation and model fine-tuning.} 
+}
+
+@article{taioli2024unsupervised,
+  bibtex_show={true},
+  title={Unsupervised active visual search with monte carlo planning under uncertain detections},
+  author={Taioli, Francesco and Giuliari, Francesco and Wang, Yiming and Berra, Riccardo and Castellini, Alberto and Del Bue, Alessio and Farinelli, Alessandro and Cristani, Marco and Setti, Francesco},
+  journal={Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2024},
+  preview={tpami-pompuncertainty.png},
+  selected={true},
+  pdf={https://arxiv.org/abs/2303.03155},
+  abstract={We propose a solution for Active Visual Search of objects in an environment, whose 2D floor map is the only known information. Our solution has three key features that make it more plausible and robust to detector failures compared to state-of-the-art methods: (i) it is unsupervised as it does not need any training sessions. (ii) During the exploration, a probability distribution on the 2D floor map is updated according to an intuitive mechanism, while an improved belief update increases the effectiveness of the agent's exploration. (iii) We incorporate the awareness that an object detector may fail into the aforementioned probability modelling by exploiting the success statistics of a specific detector. Our solution is dubbed POMP-BE-PD (Pomcp-based Online Motion Planning with Belief by Exploration and Probabilistic Detection). It uses the current pose of an agent and an RGB-D observation to learn an optimal search policy, exploiting a POMDP solved by a Monte-Carlo planning approach. On the Active Vision Database benchmark, we increase the average success rate over all the environments by a significant 35% while decreasing the average path length by 4% with respect to competing methods. Thus, our results are state-of-the-art, even without using any training procedure.} 
+}
+
+@inproceedings{taioli2024i2edl,
+  bibtex_show={true},
+  title={I2EDL: Interactive Instruction Error Detection and Localization},
+  author={Taioli, Francesco and Rosa, Stefano and Castellini, Alberto and Natale, Lorenzo and Del Bue, Alessio and Farinelli, Alessandro and Cristani, Marco and Wang, Yiming},
+  booktitle={Proceedings of IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  year={2024},
+  preview={roman24-i2edl.png},
+  selected={false},
+  pdf={https://arxiv.org/abs/2406.05080},
+  abstract={In the Vision-and-Language Navigation in Continuous Environments (VLN-CE) task, the human user guides an autonomous agent to reach a target goal via a series of low-level actions following a textual instruction in natural language. However, most existing methods do not address the likely case where users may make mistakes when providing such instruction (e.g. "turn left" instead of "turn right"). In this work, we address a novel task of Interactive VLN in Continuous Environments (IVLN-CE), which allows the agent to interact with the user during the VLN-CE navigation to verify any doubts regarding the instruction errors. We propose an Interactive Instruction Error Detector and Localizer (I2EDL) that triggers the user-agent interaction upon the detection of instruction errors during the navigation. We leverage a pre-trained module to detect instruction errors and pinpoint them in the instruction by cross-referencing the textual input and past observations. In such way, the agent is able to query the user for a timely correction, without demanding the user's cognitive load, as we locate the probable errors to a precise part of the instruction. We evaluate the proposed I2EDL on a dataset of instructions containing errors, and further devise a novel metric, the Success weighted by Interaction Number (SIN), to reflect both the navigation performance and the interaction effectiveness. We show how the proposed method can ask focused requests for corrections to the user, which in turn increases the navigation success, while minimizing the interactions.} 
+}
+
+@inproceedings{taioli2024mind,
+  bibtex_show={true},
+  title={Mind the error! detection and localization of instruction errors in vision-and-language navigation},
+  author={Taioli, Francesco and Rosa, Stefano and Castellini, Alberto and Natale, Lorenzo and Del Bue, Alessio and Farinelli, Alessandro and Cristani, Marco and Wang, Yiming},
+  booktitle={Proceedings of International Conference on Intelligent Robots and Systems (IROS)},
+  year={2024},
+  preview={iros24-mindtheerror.png},
+  selected={true},
+  html={https://intelligolabs.github.io/R2RIE-CE/},
+  pdf={https://ieeexplore.ieee.org/document/10801822},
+  code={https://github.com/intelligolabs/R2RIE-CE},
+  abstract={Low-resource domains, characterized by scarce data and annotations, present significant challenges for language and visual understanding tasks, with the latter much under-explored in the literature. Recent advancements in Vision-Language Models (VLM) have shown promising results in high-resource domains but fall short in low-resource concepts that are under-represented (e.g. only a handful of images per category) in the pre-training set. We tackle the challenging task of zero-shot low-resource image classification from a novel perspective. By leveraging a retrieval-based strategy, we achieve this in a training-free fashion. Specifically, our method, named CoRE (Combination of Retrieval Enrichment), enriches the representation of both query images and class prototypes by retrieving relevant textual information from large web-crawled databases. This retrieval-based enrichment significantly boosts classification performance by incorporating the broader contextual information relevant to the specific class. We validate our method on a newly established benchmark covering diverse low-resource domains, including medical imaging, rare plants, and circuits. Our experiments demonstrate that CoRE outperforms existing state-of-the-art methods that rely on synthetic data generation and model fine-tuning.} 
 }
