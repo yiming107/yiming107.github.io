@@ -2,6 +2,9 @@
 layout: about
 title: about
 permalink: /
+
+subtitle: <img src='/assets/img/chinese_name.png' alt='chinese name' style='height:20px; vertical-align:middle;'>
+
 subtitle: <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a>
 
 profile:
@@ -9,9 +12,11 @@ profile:
   image: profile-ywang-round.png
   image_circular: true # crops the image to make it circular
   more_info: >
+  <div style="text-align:center;">
     <p>Researcher</p>
     <p>Deep Visual Learning Unit</p>
     <p>Fondazione Bruno Kessler</p>
+  </div>
 
 social: true # includes social icons at the bottom of the page
 news: true # includes a list of news items
