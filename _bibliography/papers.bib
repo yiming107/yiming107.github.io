@@ -1,15 +1,68 @@
 ---
 ---
+@inproceedings{girella2025lots,
+  bibtex_show={true}, 
+  title={LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing},
+  author={Girella, Federico and Talon, Davide and Liu, Ziyue and Ruan, Zanxi and Wang, Yiming and Cristani, Marco},
+  booktitle={Proceedings of International Conference on Computer Vision (ICCV)},
+  year={2025},
+  preview={iccv25-lots.png},
+  html={https://intelligolabs.github.io/lots/},  
+  pdf={https://arxiv.org/abs/2507.22627},
+  code={https://intelligolabs.github.io/lots/},   
+  selected={true},
+  abstract={Fashion design is a complex creative process that blends visual and textual expressions. Designers convey ideas through sketches, which define spatial structure and design elements, and textual descriptions, capturing material, texture, and stylistic details. In this paper, we present LOcalized Text and Sketch (LOTS), an approach for compositional sketch-text based generation of complete fashion outlooks. LOTS leverages a global description with paired localized sketch + text information for conditioning and introduces a novel multistep-based merging strategy for diffusion adaptation. First, a Modularized Pair-Centric representation encodes sketches and text into a shared latent space while preserving independent localized features; then, a Diffusion Pair Guidance phase integrates both local and global conditioning via attention-based guidance within the diffusion model's multi-step denoising process. To validate our method, we build on Fashionpedia to release Sketchy, the first fashion dataset where multiple sketch-text pairs are provided per image. Quantitative results show LOTS achieves state-of-the-art image generation performance on both global and localized metrics, while qualitative examples and a human evaluation study highlight its unprecedented level of design customization.}
+}
 
-@article{zanella2025synvita,
+@inproceedings{conti2025automatic,
+  bibtex_show={true}, 
+  title={Automatic benchmarking of Large Multimodal Models via iterative experiment programming},
+  author={Conti, Alessandro and Fini, Enrico and Rota, Paolo and Wang, Yiming and Mancini, Massimiliano and Ricci, Elisa},
+  booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
+  year={2025},
+  preview={iciap25-apex.png}, 
+  pdf={https://arxiv.org/abs/2406.12321},
+  code={https://github.com/altndrr/apex},   
+  selected={false},
+  abstract={Assessing the capabilities of large multimodal models (LMMs) often requires the creation of ad-hoc evaluations. Currently, building new benchmarks requires tremendous amounts of manual work for each specific analysis. This makes the evaluation process tedious and costly. In this paper, we present APEx, Automatic Programming of Experiments, the first framework for automatic benchmarking of LMMs. Given a research question expressed in natural language, APEx leverages a large language model (LLM) and a library of pre-specified tools to generate a set of experiments for the model at hand, and progressively compile a scientific report. The report drives the testing procedure: based on the current status of the investigation, APEx chooses which experiments to perform and whether the results are sufficient to draw conclusions. Finally, the LLM refines the report, presenting the results to the user in natural language. Thanks to its modularity, our framework is flexible and extensible as new tools become available. Empirically, APEx reproduces the findings of existing studies while allowing for arbitrary analyses and hypothesis testing.}
+}
+
+@inproceedings{conti2025large,
+  bibtex_show={true},
+  title={On large multimodal models as open-world image classifiers},
+  author={Conti, Alessandro and Mancini, Massimiliano and Fini, Enrico and Wang, Yiming and Rota, Paolo and Ricci, Elisa},
+  booktitle={Proceedings of International Conference on Computer Vision (ICCV)},
+  year={2025},
+  preview={iccv25-openworld.png},
+  pdf={https://arxiv.org/abs/2503.21851},
+  code={https://github.com/altndrr/lmms-owc},   
+  selected={true},
+  abstract={Traditional image classification requires a predefined list of semantic categories. In contrast, Large Multimodal Models (LMMs) can sidestep this requirement by classifying images directly using natural language (e.g., answering the prompt "What is the main object in the image?"). Despite this remarkable capability, most existing studies on LMM classification performance are surprisingly limited in scope, often assuming a closed-world setting with a predefined set of categories. In this work, we address this gap by thoroughly evaluating LMM classification performance in a truly open-world setting. We first formalize the task and introduce an evaluation protocol, defining various metrics to assess the alignment between predicted and ground truth classes. We then evaluate 13 models across 10 benchmarks, encompassing prototypical, non-prototypical, fine-grained, and very fine-grained classes, demonstrating the challenges LMMs face in this task. Further analyses based on the proposed metrics reveal the types of errors LMMs make, highlighting challenges related to granularity and fine-grained capabilities, showing how tailored prompting and reasoning can alleviate them.}
+}
+
+@inproceedings{das2025training,
+  bibtex_show={true},
+  title={Training-Free Personalization via Retrieval and Reasoning on Fingerprints},
+  author={Das, Deepayan and Talon, Davide and Wang, Yiming and Mancini, Massimiliano and Ricci, Elisa},
+  booktitle={Proceedings of International Conference on Computer Vision (ICCV)},
+  year={2025},
+  preview={iccv25-personalization.png},
+  html={https://deepayan137.github.io/papers/training-free-personalization.html},  
+  pdf={https://arxiv.org/abs/2503.18623},
+  code={https://github.com/Deepayan137/R2P},   
+  selected={true},
+  abstract={Vision Language Models (VLMs) have lead to major improvements in multimodal reasoning, yet they still struggle to understand user-specific concepts. Existing personalization methods address this limitation but heavily rely on training procedures, that can be either costly or unpleasant to individual users. We depart from existing work, and for the first time explore the training-free setting in the context of personalization. We propose a novel method, Retrieval and Reasoning for Personalization (R2P), leveraging internal knowledge of VLMs. First, we leverage VLMs to extract the concept fingerprint, i.e., key attributes uniquely defining the concept within its semantic class. When a query arrives, the most similar fingerprints are retrieved and scored via chain-of-thought-reasoning. To reduce the risk of hallucinations, the scores are validated through cross-modal verification at the attribute level: in case of a discrepancy between the scores, R2P refines the concept association via pairwise multimodal matching, where the retrieved fingerprints and their images are directly compared with the query. We validate R2P on two publicly available benchmarks and a newly introduced dataset, Personal Concepts with Visual Ambiguity (PerVA), for concept identification highlighting challenges in visual ambiguity. R2P consistently outperforms state-of-the-art approaches on various downstream tasks across all benchmarks. Code will be available upon acceptance.}
+}
+
+@inproceedings{zanella2025synvita,
   bibtex_show={true},
   title={Can Text-to-Video Generation help Video-Language Alignment?},
   author={Zanella, Luca and Mancini, Massimiliano and Menapace, Willi and Tulyakov, Sergey and Wang, Yiming and Ricci, Elisa},
-  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2025},
   preview={synvita.png},
   html={https://lucazanella.github.io/synvita/},  
-  pdf={https://openaccess.thecvf.com/content/CVPR2025/papers/Zanella_Can_Text-to-Video_Generation_help_Video-Language_Alignment_CVPR_2025_paper.pdf},
+  pdf={https://arxiv.org/abs/2503.18507},
   code={https://github.com/lucazanella/synvita/},   
   selected={true},
   abstract={Recent video-language alignment models are trained on sets of videos, each with an associated positive caption and a negative caption generated by large language models. A problem with this procedure is that negative captions may introduce linguistic biases, i.e., concepts are seen only as negatives and never associated with a video. While a solution would be to collect videos for the negative captions, existing databases lack the fine-grained variations needed to cover all possible negatives. In this work, we study whether synthetic videos can help to overcome this issue. Our preliminary analysis with multiple generators shows that, while promising on some tasks, synthetic videos harm the performance of the model on others. We hypothesize this issue is linked to noise (semantic and visual) in the generated videos and develop a method, SynViTA, that accounts for those. SynViTA dynamically weights the contribution of each synthetic video based on how similar its target caption is w.r.t. the real counterpart. Moreover, a semantic consistency loss makes the model focus on fine-grained differences across captions, rather than differences in video appearance. Experiments show that, on average, SynViTA improves over existing methods on VideoCon test sets and SSv2-Temporal, SSv2-Events, and ATP-Hard benchmarks, being a first promising step for using synthetic videos when learning video-language models.}
