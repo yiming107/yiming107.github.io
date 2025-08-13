@@ -124,10 +124,6 @@ news:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 5 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -239,7 +235,7 @@ scholar:
   group_order: descending
 
 # Display different badges withs stats for your publications
-# Customize badge behavior in _layouts/bib.liquid
+# Customise badge behavior in _layouts/bib.liquid
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
@@ -251,7 +247,7 @@ filtered_bibtex_keywords:
 
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
