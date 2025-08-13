@@ -5,8 +5,6 @@ permalink: /
 
 subtitle: <img src='/assets/img/chinese_name.png' alt='chinese name' style='height:20px; vertical-align:middle;'>
 
-subtitle: <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a>
-
 profile:
   align: left
   image: profile-ywang-round.png
@@ -14,8 +12,8 @@ profile:
   more_info: >
   <div style="text-align:center;">
     <p>Researcher</p>
-    <p>Deep Visual Learning Unit</p>
     <p>Fondazione Bruno Kessler</p>
+    <p>Trento, Italy</p>
   </div>
 
 social: true # includes social icons at the bottom of the page
