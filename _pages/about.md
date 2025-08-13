@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a>
 
 profile:
-  align: right
+  align: left
   image: profile-ywang-round.png
   image_circular: true # crops the image to make it circular
   more_info: >
