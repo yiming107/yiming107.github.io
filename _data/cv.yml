@@ -22,14 +22,14 @@
   contents:
     - title: Ph.D. in Electronic Engineering
       institution: Queen Mary University of London (QMUL)
-      year: 2013–2018
-      description: Supervisors: Prof. Andrea Cavallaro & Dr. Yi-Zhe Song
+      year: 2018
+      description: advised by Prof. Andrea Cavallaro and Dr. Yi-Zhe Song
     - title: B.Sc. in Engineering (Honours)
-      institution: QMUL & Beijing University of Posts and Telecommunications (BUPT)
+      institution: QMUL and Beijing University of Posts and Telecommunications (BUPT)
       year: 2009–2013
       description: Ranked 4th of 355 students
 
-- title: Work Experience
+- title: Research Experience
   type: time_table
   contents:
     - title: Researcher
@@ -148,38 +148,31 @@
     - title: PhD Examination
       items:
         - Federico Cunico (2025), Andrea Toaiari (2025), Andrea Avogaro (2025), Christian Jopp (2022)
+
 - title: Invited talks
   type: time_table
   contents:
-
-    - title: LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing
+    - title: "LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing"
       institution: ICCV, oral presentation
-      date: 19 0ct 2025
-
-    - title: Your sketched idea rendered real with GenAI
+      year: 2025
+    - title: "Your sketched idea rendered real with GenAI"
       institution: Wired Next Fest
-      date: 03 0ct 2025
-    
-    - title: Seeing the Abstract: Translating the Abstract Language for Vision Language Models
-      institution: ResearchTrend.AI
-      date: 21 May 2025
-    
-    - title: Addressing vision taskswith large foundation models 
+      year: 2025
+    - title: "Seeing the Abstract: Translating the Abstract Language for Vision Language Models"
+      institution: ResearchTrendAI
+      year: 2025
+    - title: "Addressing vision tasks with large foundation models"
       institution: Hefei University of Science and Technology
-      date: 26 Dec 2024
-    
-    - title: Addressing vision tasks with Large Foundation Models
-      institution: University of Bocconi
-      date: 12 Dec 2024
-    
-    - title: Addressing vision taskswith large foundation models
+      year: 2024
+    - title: "Addressing vision tasks with large foundation models"
       institution: University of Verona
-      date: 04 Jun 2024
-
-    - title: Test-Time Zero-Shot Temporal Action Localization
+      year: 2024
+    - title: "Addressing vision tasks with large foundation models"
+      institution: University of Bocconi
+      year: 2024
+    - title: "Test-Time Zero-Shot Temporal Action Localization"
       institution: TwelveLabs
-      date: 04 Oct 2024
-
+      year: 2024
 - title: Awards and Acknowledgements
   type: nested_list
   contents:
