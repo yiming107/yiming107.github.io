@@ -545,7 +545,208 @@
   booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
   year={2022}, 
   selected={false},
+  preview={iciap22-svp.png},
   pdf={https://link.springer.com/chapter/10.1007/978-3-031-06430-2_2},
   code={https://github.com/IIT-PAVIS/SVP-Classifier},
   abstract={We address single-view 3D shape classification with partial Point Cloud Data (PCD) inputs. Conventional PCD classifiers achieve the best performance when trained and evaluated with complete 3D object scans. However, they all experience a performance drop when trained and evaluated on partial single-view PCD. We propose a Single-View PCD Classifier (SVP-Classifier), which first hallucinates the features of other viewpoints covering the unseen part of the object with a Conditional Variational Auto-Encoder (CVAE). It then aggregates the hallucinated multi-view features with a multi-level Graph Convolutional Network (GCN) to form a global shape representation that helps to improve the single-view PCD classification performance. With experiments on the single-view PCDs generated from ModelNet40 and ScanObjectNN, we prove that the proposed SVP-Classifier outperforms the best single-view PCD-based methods, after they have been retrained on single-view PCDs, thus reducing the gap between single-view methods and methods that employ complete PCDs.}
 }
+
+@inproceedings{bajovic2021marvel,
+  bibtex_show={true},
+  title={Marvel: Multimodal extreme scale data analytics for smart cities environments},
+  author={Bajovic, Dragana and Bakhtiarnia, Arian and Bravos, George and Brutti, Alessio and Burkhardt, Felix and Cauchi, Daniel and Chazapis, Antony and Cianco, Claire and Dall’Asen, Nicola and Delic, Vlado and others},
+  booktitle={Proceedings of International Balkan Conference on Communications and Networking (BalkanCom)},
+  pages={143--147},
+  year={2021},
+  preview={balcom21-marvel.png},
+  pdf={https://zenodo.org/record/5547217},
+  selected={false},
+  abstract={A Smart City based on data acquisition, handling and intelligent analysis requires efficient design and implementation of the respective AI technologies and the underlying infrastructure for seamlessly analyzing the large amounts of data in real-time. The EU project MARVEL will research solutions that can improve the integration of multiple data sources in a Smart City environment for harnessing the advantages rooted in multimodal perception of the surrounding environment.}
+}
+
+@inproceedings{dall2022graph,
+  bibtex_show={true},
+  title={Graph-based Generative Face Anonymisation with Pose Preservation},
+  author={Dall’Asen, Nicola and Wang, Yiming and Tang, Hao and Zanella, Luca and Ricci, Elisa},
+  booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
+  year={2022},
+  preview={iciap22-anonygan.png},
+  pdf={https://arxiv.org/abs/2112.05496},
+  code={https://github.com/Fodark/anonygan},
+  selected={false},
+  abstract={We propose AnonyGAN, a GAN-based solution for face anonymisation which replaces the visual information corresponding to a source identity with a condition identity provided as any single image. With the goal to maintain the geometric attributes of the source face, i.e., the facial pose and expression, and to promote more natural face generation, we propose to exploit a Bipartite Graph to explicitly model the relations between the facial landmarks of the source identity and the ones of the condition identity through a deep model. We further propose a landmark attention model to relax the manual selection of facial landmarks, allowing the network to weight the landmarks for the best visual naturalness and pose preservation. Finally, to facilitate the appearance learning, we propose a hybrid training strategy to address the challenge caused by the lack of direct pixel-level supervision. We evaluate our method and its variants on two public datasets, CelebA and LFW, in terms of visual naturalness, facial pose preservation and of its impacts on face detection and re-identification. We prove that AnonyGAN significantly outperforms the state-of-the-art methods in terms of visual naturalness, face detection and pose preservation.} 
+}
+
+@article{zhou2022loop,
+  bibtex_show={true},
+  title={Loop closure detection using local 3D deep descriptors},
+  author={Zhou, Youjie and Wang, Yiming and Poiesi, Fabio and Qin, Qi and Wan, Yi},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2022},
+  preview={ral-loopclosure.png},
+  pdf={https://arxiv.org/abs/2111.00440},
+  code={https://github.com/yiming107/l3d_loop_closure},
+  selected={false},
+  abstract={We propose a simple yet effective method to address loop closure detection in simultaneous localisation and mapping using local 3D deep descriptors (L3Ds). L3Ds are emerging compact representations of patches extracted from point clouds that are learnt from data using a deep learning algorithm. We propose a novel overlap measure for loop detection by computing the metric error between points that correspond to mutually-nearest-neighbour descriptors after registering the loop candidate point cloud by its estimated relative pose. This novel approach enables us to accurately detect loops and estimate six degrees-of-freedom poses in the case of small overlaps. We compare our L3D-based loop closure approach with recent approaches on LiDAR data and achieve state-of-the-art loop closure detection accuracy. Additionally, we embed our loop closure approach in RESLAM, a recent edge-based SLAM system, and perform the evaluation on real-world RGBD-TUM and synthetic ICL datasets. Our approach enables RESLAM to achieve a better localisation accuracy compared to its original loop closure strategy.}
+}
+
+@inproceedings{mohammadi2021pointview,
+  bibtex_show={true},
+  title={Pointview-gcn: 3d shape classification with multi-view point clouds},
+  author={Mohammadi, Seyed Saber and Wang, Yiming and Del Bue, Alessio},
+  booktitle={Proceedings of IEEE International Conference on Image Processing (ICIP)},
+  pages={3103--3107},
+  year={2021},
+  preview={icip21-pointviewgcn.png},
+  pdf={https://ieeexplore.ieee.org/document/9506426},
+  code={https://github.com/SMohammadi89/PointView-GCN},
+  selected={false},
+  abstract={We address 3D shape classification with partial point cloud inputs captured from multiple viewpoints around the object. Different from existing methods that perform classification on the complete point cloud by first registering multi-view capturing, we propose PointView-GCN with multi-level Graph Convolutional Networks (GCNs) to hierarchically aggregate the shape features of single-view point clouds, in order to encode both the geometrical cues of an object and their multi-view relations. With experiments on our novel single-view datasets, we prove that PointView-GCN produces a more descriptive global shape feature which stably improves the classification accuracy by ∼5% compared to the classifiers with single-view point clouds, and outperforms the state-of-the-art methods with the complete point clouds on ModelNet40.}
+}
+
+@inproceedings{morerio2021end,
+  bibtex_show={true},
+  title={End-to-end pairwise human proxemics from uncalibrated single images},
+  author={Morerio, Pietro and Bustreo, Matteo and Wang, Yiming and Del Bue, Alessio},
+  booktitle={Proceedings of IEEE International Conference on Image Processing (ICIP)},
+  pages={3058--3062},
+  year={2021},
+  preview={icip21-deeprox.png},
+  selected={false},
+  pdf={https://ieeexplore.ieee.org/document/9506457},
+  abstract={In this work, we address the ill-posed problem of estimating pairwise metric distances between people using only a single uncalibrated image. We propose an end-to-end model, DeepProx, that takes as inputs two skeletal joints as a set of 2D image coordinates and outputs the metric distance between them. We show that an increased performance is achieved by a geometrical loss over simplified camera parameters provided at training time. Further, DeepProx achieves a remarkable generalisation over novel viewpoints through domain generalisation techniques. We validate our proposed method quantitatively and qualitatively against baselines on public datasets for which we provided groundtruth on interpersonal distances.}
+}
+
+@inproceedings{giuliari2021pomp++,
+  bibtex_show={true},
+  title={POMP++: Pomcp-based Active Visual Search in unknown indoor environments},
+  author={Giuliari, Francesco and Castellini, Alberto and Berra, Riccardo and Del Bue, Alessio and Farinelli, Alessandro and Cristani, Marco and Setti, Francesco and Wang, Yiming},
+  booktitle={Proceedings of International Conference on Intelligent Robots and Systems (IROS)},
+  year={2021},
+  preview={iros21-pomp2.png}
+  pdf={https://arxiv.org/abs/2107.00914},
+  selected={false},
+  abstract={In this paper we focus on the problem of learning online an optimal policy for Active Visual Search (AVS) of objects in unknown indoor environments. We propose POMP++, a planning strategy that introduces a novel formulation on top of the classic Partially Observable Monte Carlo Planning (POMCP) framework, to allow training-free online policy learning in unknown environments. We present a new belief reinvigoration strategy which allows to use POMCP with a dynamically growing state space to address the online generation of the floor map. We evaluate our method on two public benchmark datasets, AVD that is acquired by real robotic platforms and Habitat ObjectNav that is rendered from real 3D scene scans, achieving the best success rate with an improvement of >10% over the state-of-the-art methods.}
+}
+
+@inproceedings{aghaei2021single,
+  bibtex_show={true},
+  title={Single Image Human Proxemics Estimation for Visual Social Distancing},
+  author={Aghaei, Maya and Bustreo, Matteo and Wang, Yiming and Morerio, Pietro and Del Bue, Alessio},
+  booktitle={Proceedings of IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  year={2021},
+  preview={wacv21-socialdistance.png},
+  pdf={https://arxiv.org/abs/2011.02018},
+  selected={false},
+  code={https://github.com/IIT-PAVIS/Social-Distancing},
+  abstract={In this work, we address the problem of estimating the so-called "Social Distancing" given a single uncalibrated image in unconstrained scenarios. Our approach proposes a semi-automatic solution to approximate the homography matrix between the scene ground and image plane. With the estimated homography, we then leverage an off-the-shelf pose detector to detect body poses on the image and to reason upon their inter-personal distances using the length of their body-parts. Inter-personal distances are further locally inspected to detect possible violations of the social distancing rules. We validate our proposed method quantitatively and qualitatively against baselines on public domain datasets for which we provided groundtruth on inter-personal distances. Besides, we demonstrate the application of our method deployed in a real testing scenario where statistics on the inter-personal distances are currently used to improve the safety in a critical environment.}
+}
+
+@inproceedings{wang2020pomp,
+  bibtex_show={true},
+  title={POMP: Pomcp-based Online Motion Planning for active visual search in indoor environments},
+  author={Wang, Yiming and Giuliari, Francesco and Berra, Ricardo and Castellini, Alberto and Del Bue, Alessio and Farinelli, Alessandro and Marco, Cristani and Setti, Francesco},
+  booktitle={Proceedings of British Machine Vision Conference (BMVC)},
+  year={2020},
+  pdf={https://arxiv.org/abs/2009.08140} 
+  preview={bmvc20-pomp.png},
+  selected={false},
+  abstract={In this paper we focus on the problem of learning an optimal policy for Active Visual Search (AVS) of objects in known indoor environments with an online setup. Our POMP method uses as input the current pose of an agent (e.g. a robot) and a RGB-D frame. The task is to plan the next move that brings the agent closer to the target object. We model this problem as a Partially Observable Markov Decision Process solved by a Monte-Carlo planning approach. This allows us to make decisions on the next moves by iterating over the known scenario at hand, exploring the environment and searching for the object at the same time. Differently from the current state of the art in Reinforcement Learning, POMP does not require extensive and expensive (in time and computation) labelled data so being very agile in solving AVS in small and medium real scenarios. We only require the information of the floormap of the environment, an information usually available or that can be easily extracted from an a priori single exploration run. We validate our method on the publicly available AVD benchmark, achieving an average success rate of 0.76 with an average path length of 17.1, performing close to the state of the art but without any training needed. Additionally, we show experimentally the robustness of our method when the quality of the object detection goes from ideal to faulty.}
+}
+
+
+@inproceedings{wang2020explore,
+  bibtex_show={true},
+  title={Where to Explore Next? ExHistCNN for History-aware Autonomous 3D Exploration},
+  author={Wang, Yiming and Del Bue, Alessio},
+  booktitle={Proceedings of European Conference on Computer Vision (ECCV)},
+  year={2020},
+  preview={eccv20-exhistcnn.png}
+  pdf={https://arxiv.org/abs/2011.14669},
+  code={https://github.com/IIT-PAVIS/ExHistCNN},
+  selected={true},
+  abstract={In this work we address the problem of autonomous 3D exploration of an unknown indoor environment using a depth camera. We cast the problem as the estimation of the Next Best View (NBV) that maximises the coverage of the unknown area. We do this by re-formulating NBV estimation as a classification problem and we propose a novel learning-based metric that encodes both, the current 3D observation (a depth frame) and the history of the ongoing reconstruction. One of the major contributions of this work is about introducing a new representation for the 3D reconstruction history as an auxiliary utility map which is efficiently coupled with the current depth observation. With both pieces of information, we train a light-weight CNN, named ExHistCNN, that estimates the NBV as a set of directions towards which the depth sensor finds most unexplored areas. We perform extensive evaluation on both synthetic and real room scans demonstrating that the proposed ExHistCNN is able to approach the exploration performance of an oracle using the complete knowledge of the 3D environment.}
+}
+
+@inproceedings{wang2019active,
+  bibtex_show={true},
+  title={Active 3D Classification of Multiple Objects in Cluttered Scenes},
+  author={Wang, Yiming and Carletti, Marco and Setti, Francesco and Cristani, Marco and Del Bue, Alessio},
+  booktitle={Proceedings of International Workshop on Assistive Computer Vision and Robotics, in Conjunction With ICCV (ICCVW)},
+  year={2019},
+  preview={iccvw19-ar.png},
+  selected={false},
+  pdf={https://ieeexplore.ieee.org/document/9022255},
+  abstract={Autonomous agents that need to effectively move and interact in a realistic environment have to be endowed with robust perception skills. Among many, accurate object classification is an essential supporting element for assistive robotics. However, realistic scenarios often present scenes with severe clutter, that dramatically degrades the performance of current object classification methods. This paper presents an active vision approach that improves the accuracy of 3D object classification through a next-best-view (NBV) paradigm to perform this complex task with ease. The next camera motion is chosen with the criteria that aim to avoid object self-occlusions while exploring as much as possible the surrounding area. An online 3D reconstruction module is exploited in our system in order to obtain a better canonical 3D representation of the scene while moving the sensor. By reducing the impact of occlusions, we show with both synthetic and real-world data that in a few moves the approach can surpass a state-of-the-art method, PointNet with single view object classification from depth data. In addition, we demonstrate our system in a practical scenario where depth sensor moves to search and classify a set of objects in cluttered scenes.}
+}
+
+@article{wang2019autonomous,
+  bibtex_show={true},
+  title={Autonomous 3D reconstruction, mapping and exploration of indoor environments with a robotic arm},
+  author={Wang, Yiming and James, Stuart and Stathopoulou, Elisavet Konstantina and Beltrán-González, Carlos and Konishi, Yoshinori and Del Bue, Alessio},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2019},
+  preview={ral19-active.png},
+  selected={true},
+  pdf={https://ieeexplore.ieee.org/document/8754778},
+  abstract={We propose a novel information gain metric that combines hand-crafted and data-driven metrics to address the next best view problem for autonomous 3-D mapping of unknown indoor environments. For the hand-crafted metric, we propose an entropy-based information gain that accounts for the previous view points to avoid the camera to revisit the same location and to promote the motion toward unexplored or occluded areas. However, for the learnt metric, we adopt a convolutional neural network (CNN) architecture and formulate the problem as a classification problem. The CNN takes the current depth image as input and outputs the motion direction that suggests the largest unexplored surface. We train and test the CNN using a new synthetic dataset based on the SUNCG dataset. The learnt motion direction is then combined with the proposed hand-crafted metric to help handle situations where using only the hand-crafted metric tends to face ambiguities. We finally evaluate the autonomous paths over several real and synthetic indoor scenes including complex industrial and domestic settings and prove that our combined metric is able to further improve the exploration coverage compared to using only the proposed hand-crafted metric.}
+}
+
+@inproceedings{wang2018concurrent,
+  bibtex_show={true},
+  title={Concurrent target following with active directional sensors},
+  author={Wang, Yiming and Cavallaro, Andrea},
+  booktitle={Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6603--6607},
+  year={2018},
+  preview={icassp18-concurrent.png},
+  pdf={https://ieeexplore.ieee.org/document/8462432},
+  selected={false},
+  abstract={We propose a collision-avoidance tracker for agents with a directional sensor that aim to maintain a moving target in their field of view. The proposed tracker addresses the view maintenance issue within an Optimal Reciprocal Collision Avoidance (ORCA) framework. Our tracking agents adaptively share the responsibility of avoiding each other and minimise with a smooth actuation the deviation angle from their heading direction to their target. Experimental results with real people trajectories from public datasets show that the proposed method improves view maintenance.}
+}
+
+@inproceedings{wang2017active,
+  bibtex_show={true},
+  title={Active visual tracking in multi-agent scenarios},
+  author={Wang, Yiming and Cavallaro, Andrea},
+  booktitle={Proceedings of IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},
+  pages={1--6},
+  year={2017},
+  preview={avss17-activetracking.png},
+  selected={true},
+  pdf={https://ieeexplore.ieee.org/document/8078519},
+  code={https://www.eecs.qmul.ac.uk/~andrea/dwnld/AORCA_AVSS2017.zip},
+  abstract={We propose an active visual tracker with collision avoidance for camera-equipped robots in dense multi-agent scenarios. The objective of each tracking agent (robot) is to maintain visual fixation on its moving target while updating its velocity to avoid other agents. However, when multiple robots are present or targets intensively intersect each other, robots may have no accessible collision-avoiding paths. We address this problem with an adaptive mechanism that sets the pair-wise responsibilities to increase the total accessible collision-avoiding controls. The final collision-avoiding control accounts for motion smoothness and view performance, i.e. maintaining the target centered in the field of view and at a certain size. We validate the proposed approach under different target-intersecting scenarios and compare it with the Optimal Reciprocal Collision Avoidance and the Reciprocal Velocity Obstacle methods.}
+}
+
+@inproceedings{wang2016prioritized,
+  bibtex_show={true},
+  title={Prioritized target tracking with active collaborative cameras},
+  author={Wang, Yiming and Cavallaro, Andrea},
+  booktitle={Proceedings of IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},
+  pages={131--137},
+  year={2016},
+  preview={avss16-collaborativecam.png},
+  selected={false},
+  pdf={https://ieeexplore.ieee.org/document/7738066},
+  code={https://www.eecs.qmul.ac.uk/~andrea/dwnld/AORCA_AVSS2017.zip},
+  abstract={Mobile cameras on robotic platforms can support fixed multi-camera installations to improve coverage and target localization accuracy. We propose a novel collaborative framework for prioritized target tracking that complement static cameras with mobile cameras, which track targets on demand. Upon receiving a request from static cameras, a mobile camera selects (or switches to) a target to track using a local selection criterion that accounts for target priority, view quality and energy consumption. Mobile cameras use a receding horizon scheme to minimize tracking uncertainty as well as energy consumption when planning their path. We validate the proposed framework in simulated realistic scenarios and show that it improves tracking accuracy and target observation time with reduced energy consumption compared to a framework with only static cameras and compared to a state-of-the-art motion strategy.}
+}
+
+@inproceedings{wang2015coalition,
+  bibtex_show={true},
+  title={Coalition formation for distributed tracking in wireless camera networks},
+  author={Wang, Yiming and Cavallaro, Andrea},
+  booktitle={IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},
+  year={2015},
+  preview={avss15-coalition.png},
+  selected={false},
+  pdf={https://ieeexplore.ieee.org/document/7301756},
+  abstract={We present a fully distributed framework for multi-target tracking with bandwidth-limited (wireless) camera networks. Cameras self-organize into coalitions to perform the task of distributed target tracking via local interactions. Each camera joins the coalitions based on considerations of marginal utility, which takes into account tracking confidence and communication performance in the neighborhood of the camera. The proposed framework achieves higher tracking accuracy and quicker convergence than decentralized tracking or distributed tracking without coalition formation. Moreover, the communication cost of the proposed framework is considerably reduced compared to distributed tracking without coalition formation and comparable to decentralized tracking as the number of targets increases.}
+}
+
+
+
+
+
+	
