@@ -370,11 +370,23 @@
   abstract={The task of Novel Class Discovery (NCD) in semantic segmentation entails training a model able to accurately segment unlabelled (novel) classes, relying on the available supervision from annotated (base) classes. Although extensively investigated in 2D image data, the extension of the NCD task to the domain of 3D point clouds represents a pioneering effort, characterized by assumptions and challenges that are not present in the 2D case. This paper represents an advancement in the analysis of point cloud data in four directions. Firstly, it introduces the novel task of NCD for point cloud semantic segmentation. Secondly, it demonstrates that directly transposing the only existing NCD method for 2D image semantic segmentation to 3D data yields suboptimal results. Thirdly, a new NCD approach based on online clustering, uncertainty estimation, and semantic distillation is presented. Lastly, a novel evaluation protocol is proposed to rigorously assess the performance of NCD in point cloud semantic segmentation. Through comprehensive evaluations on the SemanticKITTI, SemanticPOSS, and S3DIS datasets, the paper demonstrates substantial superiority of the proposed method over the considered baselines.}
 }
 
+@inproceedings{leporowski2024mavad,
+  bibtex_show={true},
+  title={MAVAD: Audio-Visual Dataset and Method for Anomaly Detection in Traffic Videos},
+  author={Leporowski, B{\l}a{\.z}ej and Bakhtiarnia, Arian and Bonnici, Nicole and Muscat, Adrian and Zanella, Luca and Wang, Yiming and Iosifidis, Alexandros},
+  booktitle={Proceedings of IEEE International Conference on Image Processing (ICIP)},
+  year={2024},
+  pdf={https://arxiv.org/abs/2305.15084},
+  preview={icip24-mavad.png},
+  selected={false},
+  abstract={We introduce the first audio-visual dataset for traffic anomaly detection taken from real-world scenes, called MAVAD, with a diverse range of weather and illumination conditions. In addition, we propose a novel method named AVACA that combines visual and audio features extracted from video sequences by means of cross-attention to detect anomalies. We demonstrate that the addition of audio improves the performance of AVACA by up to 5.2%. We also evaluate the impact of image anonymization, showing only a minor decrease in performance averaging at 1.7%.}
+}
+
 @inproceedings{conti2023vocabulary,
   bibtex_show={true},
   title={Vocabulary-free Image Classification},
   author={Conti, Alessandro and Fini, Enrico and Mancini, Massimiliano and Rota, Paolo and Wang, Yiming and Ricci, Elisa},
-  booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+  booktitle={Proceedings of Conference on Neural Information Processing Systems (NeurIPS)},
   year={2023},
   preview={neurips23-vic.png},
   html={https://alessandroconti.me/papers/2306.00917},
@@ -384,4 +396,118 @@
   abstract={Recent advances in large vision-language models have revolutionized the image classification paradigm. Despite showing impressive zero-shot capabilities, a pre-defined set of categories, a.k.a. the vocabulary, is assumed at test time for composing the textual prompts. However, such assumption can be impractical when the semantic context is unknown and evolving. We thus formalize a novel task, termed as Vocabulary-free Image Classification (VIC), where we aim to assign to an input image a class that resides in an unconstrained language-induced semantic space, without the prerequisite of a known vocabulary. VIC is a challenging task as the semantic space is extremely large, containing millions of concepts, with hard-to-discriminate fine-grained categories. In this work, we first empirically verify that representing this semantic space by means of an external vision-language database is the most effective way to obtain semantically relevant content for classifying the image. We then propose Category Search from External Databases (CaSED), a method that exploits a pre-trained vision-language model and an external vision-language database to address VIC in a training-free manner. CaSED first extracts a set of candidate categories from captions retrieved from the database based on their semantic similarity to the image, and then assigns to the image the best matching candidate category according to the same vision-language model. Experiments on benchmark datasets validate that CaSED outperforms other complex vision-language frameworks, while being efficient with much fewer parameters, paving the way for future research in this direction.}
 }
 
+@article{jiao2023survey,
+  bibtex_show={true},
+  title={Survey on video anomaly detection in dynamic scenes with moving cameras},
+  author={Jiao, Runyu and Wan, Yi and Poiesi, Fabio and Wang, Yiming},
+  journal={Artificial Intelligence Review},
+  number={https://doi.org/10.1007/s10462-023-10609},
+  year={2023},
+  preview={aireview-movingcamera.png},
+  pdf={https://arxiv.org/abs/2308.07050},
+  selected={false},
+  abstract={The increasing popularity of compact and inexpensive cameras, e.g.~dash cameras, body cameras, and cameras equipped on robots, has sparked a growing interest in detecting anomalies within dynamic scenes recorded by moving cameras. However, existing reviews primarily concentrate on Video Anomaly Detection (VAD) methods assuming static cameras. The VAD literature with moving cameras remains fragmented, lacking comprehensive reviews to date. To address this gap, we endeavor to present the first comprehensive survey on Moving Camera Video Anomaly Detection (MC-VAD). We delve into the research papers related to MC-VAD, critically assessing their limitations and highlighting associated challenges. Our exploration encompasses three application domains: security, urban transportation, and marine environments, which in turn cover six specific tasks. We compile an extensive list of 25 publicly-available datasets spanning four distinct environments: underwater, water surface, ground, and aerial. We summarize the types of anomalies these datasets correspond to or contain, and present five main categories of approaches for detecting such anomalies. Lastly, we identify future research directions and discuss novel contributions that could advance the field of MC-VAD. With this survey, we aim to offer a valuable reference for researchers and practitioners striving to develop and advance state-of-the-art MC-VAD methods.}
+}
 
+@article{zhou2023attentive,
+  bibtex_show={true},
+  title={Attentive Multimodal Fusion for Optical and Scene Flow},
+  author={Zhou, Youjie and Mei, Guofeng and Wang, Yiming and Poiesi, Fabio and Wan, Yi},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2023},
+  preview={ral-fusionraft.png},
+  pdf={https://arxiv.org/abs/2307.15301},
+  selected={false},
+  code={https://github.com/jiesico/FusionRAFT},
+  abstract={This paper presents an investigation into the estimation of optical and scene flow using RGBD information in scenarios where the RGB modality is affected by noise or captured in dark environments. Existing methods typically rely solely on RGB images or fuse the modalities at later stages, which can result in lower accuracy when the RGB information is unreliable. To address this issue, we propose a novel deep neural network approach named FusionRAFT, which enables early-stage information fusion between sensor modalities (RGB and depth). Our approach incorporates self- and cross-attention layers at different network levels to construct informative features that leverage the strengths of both modalities. Through comparative experiments, we demonstrate that our approach outperforms recent methods in terms of performance on the synthetic dataset Flyingthings3D, as well as the generalization on the real-world dataset KITTI. We illustrate that our approach exhibits improved robustness in the presence of noise and low-lighting conditions that affect the RGB images.}
+}
+
+@article{he2023exploiting,
+  bibtex_show={true},
+  title={Exploiting multi-granularity visual features for retinal layer segmentation in human eyes},
+  author={He, Xiang and Wang, Yiming and Poiesi, Fabio and Song, Weiye and Xu, Quanqing and Feng, Zixuan and Wan, Yi},
+  journal={Frontiers in Bioengineering and Biotechnology},
+  year={2023},
+  preview={frontier-seg.png},
+  pdf={https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2023.1191803/full},
+  selected={false},
+  code={https://github.com/Medical-Image-Analysis/Retinal-layer-segmentation},
+  abstract={Accurate segmentation of retinal layer boundaries can facilitate the detection of patients with early ophthalmic disease. Typical segmentation algorithms operate at low resolutions without fully exploiting multi-granularity visual features. Moreover, several related studies do not release their datasets that are key for the research on deep learning-based solutions. We propose a novel end-to-end retinal layer segmentation network based on ConvNeXt, which can retain more feature map details by using a new depth-efficient attention module and multi-scale structures. In addition, we provide a semantic segmentation dataset containing 206 retinal images of healthy human eyes (named NR206 dataset), which is easy to use as it does not require any additional transcoding processing. We experimentally show that our segmentation approach outperforms state-of-the-art approaches on this new dataset, achieving, on average, a Dice score of 91.3% and mIoU of 84.4%. Moreover, our approach achieves state-of-the-art performance on a glaucoma dataset and a diabetic macular edema (DME) dataset, showing that our model is also suitable for other applications.}
+}
+
+@incollection{zanella2022responsible,
+  bibtex_show={true},
+  title={Responsible AI at the edge: towards privacy-preserving smart cities},
+  author={Zanella, Luca and Wang, Yiming and Dall’Asen, Nicola and Ancilotto, Alberto and Paissan, Francesco and Ricci, Elisa and Farella, Elisabetta and Brutti, Alessio and Pistore, Marco and others},
+  booktitle={Ital-IA 2022, Secondo Convegno del Laboratorio nazionale CINI-AIIS},
+  year={2022},
+  preview={ital22-responsibleai.png},
+  pdf={https://zenodo.org/records/5960431},
+  selected={false},
+  abstract={With the massive amount of data produced by ambient environmental sensors, many AI-based solutions are emerging to support new smart cities’ applications. However, these data may contain sensitive personal information, calling for responsible AI solutions. FBK proposes a privacy-preserving subsystem with a set of technological components that enable responsible AI and prevent unauthorised usage of personal data at the data storage and during data transmission under the context of Smart Cities. We demonstrate the proposed solution under an EU project MARVEL, where both video and audio anonymisation components are deployed at the edge level, enabled by a model compression component for complexity reduction. We discuss each component’s technical challenges, current progress, and future directions.}
+}
+
+
+@inproceedings{seyed20233dsgrasp,
+  bibtex_show={true},
+  title={3DSGrasp: 3D Shape-Completion for Robotic Grasp},
+  author={Seyed Mohammadi, Saber and Ferreira Duarte, Nuno and Dimou, Dimitrios and Wang, Yiming and Taiana, Matteo and Morerio, Pietro and Dehban, Atabak and Moreno, Plinio and Bernardino, Alexandre and Del Bue, Alessio and others},
+  booktitle={Proceedings of IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023},
+  selected={false},
+  preview={icra23-3dsgrasp.gif},
+  code={https://github.com/NunoDuarte/3DSGrasp},
+  pdf={https://ieeexplore.ieee.org/document/10160350},
+  abstract={Real-world robotic grasping can be done robustly if a complete 3D Point Cloud Data (PCD) of an object is available. However, in practice, PCDs are often incomplete when objects are viewed from few and sparse viewpoints before the grasping action, leading to the generation of wrong or inaccurate grasp poses. We propose a novel grasping strategy, named 3DSGrasp, that predicts the missing geometry from the partial PCD to produce reliable grasp poses. Our proposed PCD completion network is a Transformer-based encoder-decoder network with an Offset-Attention layer. Our network is inherently invariant to the object pose and point's permutation, which generates PCDs that are geometrically consistent and completed properly. Experiments on a wide range of partial PCD show that 3DSGrasp outperforms the best state-of-the-art method on PCD completion tasks and largely improves the grasping success rate in real-world scenarios.}
+}
+
+
+@article{giuliari2023leveraging,
+  bibtex_show={true},
+  title={Leveraging commonsense for object localisation in partial scenes},
+  author={Giuliari, Francesco and Skenderi, Geri and Cristani, Marco and Del Bue, Alessio and Wang, Yiming},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2023},
+  preview={tpami-scenegraph.png},
+  selected={true},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10115261},
+  abstract={We propose an end-to-end solution to address the problem of object localisation in partial scenes, where we aim to estimate the position of an object in an unknown area given only a partial 3D scan of the scene. We propose a novel scene representation to facilitate the geometric reasoning, Directed Spatial Commonsense Graph (D-SCG), a spatial scene graph that is enriched with additional concept nodes from a commonsense knowledge base. Specifically, the nodes of D-SCG represent the scene objects and the edges are their relative positions. Each object node is then connected via different commonsense relationships to a set of concept nodes. With the proposed graph-based scene representation, we estimate the unknown position of the target object using a Graph Neural Network that implements a novel attentional message passing mechanism. The network first predicts the relative positions between the target object and each visible object by learning a rich representation of the objects via aggregating both the object nodes and the concept nodes in D-SCG. These relative positions then are merged to obtain the final position. We evaluate our method using Partial ScanNet, improving the state-of-the-art by 5.9% in terms of the localisation accuracy at a 8x faster training speed.}
+}
+
+@inproceedings{mattolin2023confmix,
+  bibtex_show={true},
+  title={ConfMix: Unsupervised Domain Adaptation for Object Detection via Confidence-based Mixing},
+  author={Mattolin, Giulio and Zanella, Luca and Ricci, Elisa and Wang, Yiming},
+  booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+  year={2023},
+  preview={wacv23-confmix.png},
+  selected={true},
+  pdf={https://arxiv.org/abs/2210.11539},
+  code={https://github.com/giuliomattolin/ConfMix},
+  abstract={Unsupervised Domain Adaptation (UDA) for object detection aims to adapt a model trained on a source domain to detect instances from a new target domain for which annotations are not available. Different from traditional approaches, we propose ConfMix, the first method that introduces a sample mixing strategy based on region-level detection confidence for adaptive object detector learning. We mix the local region of the target sample that corresponds to the most confident pseudo detections with a source image, and apply an additional consistency loss term to gradually adapt towards the target data distribution. In order to robustly define a confidence score for a region, we exploit the confidence score per pseudo detection that accounts for both the detector-dependent confidence and the bounding box uncertainty. Moreover, we propose a novel pseudo labelling scheme that progressively filters the pseudo target detections using the confidence metric that varies from a loose to strict manner along the training. We perform extensive experiments with three datasets, achieving state-of-the-art performance in two of them and approaching the supervised target model performance in the other.}
+}
+
+@article{bayraktar2022fast,
+  bibtex_show={true},
+  title={Fast re-OBJ: Real-time object re-identification in rigid scenes},
+  author={Bayraktar, Ertu{\u{g}}rul and Wang, Yiming and Del Bue, Alessio},
+  journal={Machine Vision and Applications},
+  year={2022},
+  preview={mva-fastreobj.png},
+  selected={false},
+  pdf={https://link.springer.com/article/10.1007/s00138-022-01349-z},
+  abstract={Unsupervised Domain Adaptation (UDA) for object detection aims to adapt a model trained on a source domain to detect instances from a new target domain for which annotations are not available. Different from traditional approaches, we propose ConfMix, the first method that introduces a sample mixing strategy based on region-level detection confidence for adaptive object detector learning. We mix the local region of the target sample that corresponds to the most confident pseudo detections with a source image, and apply an additional consistency loss term to gradually adapt towards the target data distribution. In order to robustly define a confidence score for a region, we exploit the confidence score per pseudo detection that accounts for both the detector-dependent confidence and the bounding box uncertainty. Moreover, we propose a novel pseudo labelling scheme that progressively filters the pseudo target detections using the confidence metric that varies from a loose to strict manner along the training. We perform extensive experiments with three datasets, achieving state-of-the-art performance in two of them and approaching the supervised target model performance in the other.}
+}
+
+@inproceedings{conti2022cluster,
+  bibtex_show={true},
+  title={Cluster-level pseudo-labelling for source-free cross-domain facial expression recognition},
+  author={Conti, Alessandro and Rota, Paolo and Wang, Yiming and Ricci, Elisa},
+  booktitle={British Machine Vision Conference (BMVC)},
+  year={2022},
+  preview={bmvc22-clup.png},
+  pdf={https://arxiv.org/abs/2210.05246},
+  code={https://github.com/altndrr/clup},
+  selected={false},
+  abstract={Automatically understanding emotions from visual data is a fundamental task for human behaviour understanding. While models devised for Facial Expression Recognition (FER) have demonstrated excellent performances on many datasets, they often suffer from severe performance degradation when trained and tested on different datasets due to domain shift. In addition, as face images are considered highly sensitive data, the accessibility to large-scale datasets for model training is often denied. In this work, we tackle the above-mentioned problems by proposing the first Source-Free Unsupervised Domain Adaptation (SFUDA) method for FER. Our method exploits self-supervised pretraining to learn good feature representations from the target data and proposes a novel and robust cluster-level pseudo-labelling strategy that accounts for in-cluster statistics. We validate the effectiveness of our method in four adaptation setups, proving that it consistently outperforms existing SFUDA methods when applied to FER, and is on par with methods addressing FER in the UDA setting.}
+}
