@@ -503,11 +503,49 @@
   bibtex_show={true},
   title={Cluster-level pseudo-labelling for source-free cross-domain facial expression recognition},
   author={Conti, Alessandro and Rota, Paolo and Wang, Yiming and Ricci, Elisa},
-  booktitle={British Machine Vision Conference (BMVC)},
+  booktitle={Proceedings of British Machine Vision Conference (BMVC)},
   year={2022},
   preview={bmvc22-clup.png},
   pdf={https://arxiv.org/abs/2210.05246},
   code={https://github.com/altndrr/clup},
   selected={false},
   abstract={Automatically understanding emotions from visual data is a fundamental task for human behaviour understanding. While models devised for Facial Expression Recognition (FER) have demonstrated excellent performances on many datasets, they often suffer from severe performance degradation when trained and tested on different datasets due to domain shift. In addition, as face images are considered highly sensitive data, the accessibility to large-scale datasets for model training is often denied. In this work, we tackle the above-mentioned problems by proposing the first Source-Free Unsupervised Domain Adaptation (SFUDA) method for FER. Our method exploits self-supervised pretraining to learn good feature representations from the target data and proposes a novel and robust cluster-level pseudo-labelling strategy that accounts for in-cluster statistics. We validate the effectiveness of our method in four adaptation setups, proving that it consistently outperforms existing SFUDA methods when applied to FER, and is on par with methods addressing FER in the UDA setting.}
+}
+
+@inproceedings{ren2023pi,
+  bibtex_show={true},
+  title={PI-Trans: Parallel-ConvMLP and Implicit-Transformation Based GAN for Cross-View Image Translation},
+  author={Ren, Bin and Tang, Hao and Wang, Yiming and Li, Xia and Wang, Wei and Sebe, Nicu},
+  booktitle={Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  year={2023}, 
+  preview={icassp23-pi.png},
+  pdf={https://arxiv.org/abs/2207.04242},
+  code={https://github.com/Amazingren/PI-Trans},
+  selected={false},
+  abstract={For semantic-guided cross-view image translation, it is crucial to learn where to sample pixels from the source view image and where to reallocate them guided by the target view semantic map, especially when there is little overlap or drastic view difference between the source and target images. Hence, one not only needs to encode the long-range dependencies among pixels in both the source view image and target view semantic map but also needs to translate these learned dependencies. To this end, we propose a novel generative adversarial network, PI-Trans, which mainly consists of a novel Parallel-ConvMLP module and an Implicit Transformation module at multiple semantic levels. Extensive experimental results show that PI-Trans achieves the best qualitative and quantitative performance by a large margin compared to the state-of-the-art methods on two challenging datasets.}
+}
+
+@inproceedings{giuliari2022spatial,
+  bibtex_show={true},
+  title={Spatial Commonsense Graph for Object Localisation in Partial Scenes},
+  author={Giuliari, Francesco and Skender, Geri and Cristani, Marco and Wang, Yiming and Del Bue, Alessio},
+  booktitle={Proceedings of the Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2022},
+  preview={cvpr22-scenegraph.png},
+  pdf={https://arxiv.org/abs/2203.05380},
+  code={https://github.com/IIT-PAVIS/SpatialCommonsenseGraph},
+  selected={true},
+  abstract={We solve object localisation in partial scenes, a new problem of estimating the unknown position of an object (e.g. where is the bag?) given a partial 3D scan of a scene. The proposed solution is based on a novel scene graph model, the Spatial Commonsense Graph (SCG), where objects are the nodes and edges define pairwise distances between them, enriched by concept nodes and relationships from a commonsense knowledge base. This allows SCG to better generalise its spatial inference over unknown 3D scenes. The SCG is used to estimate the unknown position of the target object in two steps: first, we feed the SCG into a novel Proximity Prediction Network, a graph neural network that uses attention to perform distance prediction between the node representing the target object and the nodes representing the observed objects in the SCG; second, we propose a Localisation Module based on circular intersection to estimate the object position using all the predicted pairwise distances in order to be independent of any reference system. We create a new dataset of partially reconstructed scenes to benchmark our method and baselines for object localisation in partial scenes, where our proposed method achieves the best localisation performance.}
+}
+
+@inproceedings{mohammadi2022svp,
+  bibtex_show={true},
+  title={SVP-Classifier: Single-View Point cloud data classifier with multi-view hallucination},
+  author={Mohammadi, Seyed Saber and Wang, Yiming and Taiana, Matteo and Morerio, Pietro and Del Bue, Alessio},
+  booktitle={Proceedings of International Conference on Image Analysis and Processing (ICIAP)},
+  year={2022}, 
+  selected={false},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-06430-2_2},
+  code={https://github.com/IIT-PAVIS/SVP-Classifier},
+  abstract={We address single-view 3D shape classification with partial Point Cloud Data (PCD) inputs. Conventional PCD classifiers achieve the best performance when trained and evaluated with complete 3D object scans. However, they all experience a performance drop when trained and evaluated on partial single-view PCD. We propose a Single-View PCD Classifier (SVP-Classifier), which first hallucinates the features of other viewpoints covering the unseen part of the object with a Conditional Variational Auto-Encoder (CVAE). It then aggregates the hallucinated multi-view features with a multi-level Graph Convolutional Network (GCN) to form a global shape representation that helps to improve the single-view PCD classification performance. With experiments on the single-view PCDs generated from ModelNet40 and ScanObjectNN, we prove that the proposed SVP-Classifier outperforms the best single-view PCD-based methods, after they have been retrained on single-view PCDs, thus reducing the gap between single-view methods and methods that employ complete PCDs.}
 }
