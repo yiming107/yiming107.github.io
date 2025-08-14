@@ -1,6 +1,9 @@
 ---
 layout: page
 title: news
+description: research announcements on achievements or ongoing activities.
+nav: true
+nav_order: 4
 permalink: /news/
 ---
 

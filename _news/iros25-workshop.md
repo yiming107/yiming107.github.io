@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🔔 Our <a href="https://heai-iros25-workshop.github.io/">workshop on Human-aware Embodied AI</a> (HEAI@IROS'25) is calling for submissions! S
+🔔 Our <a href="https://heai-iros25-workshop.github.io/">workshop on Human-aware Embodied AI</a> (HEAI@IROS'25) is calling for submissions! Check our site for more info or just write us: heai.iros25@gmail.com
