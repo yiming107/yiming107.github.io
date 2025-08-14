@@ -1,6 +1,6 @@
 ---
 layout: page
-title: news
+title: News
 description: research announcements on achievements or ongoing activities.
 nav: true
 nav_order: 4
