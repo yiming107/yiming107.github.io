@@ -61,7 +61,7 @@
       year: 2013–2017
       description: Assisted in Computer Vision, Data Mining, Machine Learning
 
-- title: Research Projects
+- title: Funded Projects
   type: time_table
   contents:
     - title: LoCa AI
@@ -71,9 +71,7 @@
     - title: Swarmchetrate
       institution: EU project
       year: 2024–present
-      description: Task leader — Cloud-edge orchestration
-    - title: Scene understanding with moving cameras
-      year: 2021–present
+      description: Task leader
     - title: Active vision for robotic navigation
       year: 2019–present
     - title: PRECRISIS
@@ -85,11 +83,6 @@
     - title: PROTECTOR
       institution: EU ISF project
       year: 2021–2023
-    - title: Autonomous 3D exploration
-      institution: Omron collaboration
-      year: 2018–2019
-    - title: Active visual tracking
-      year: 2013–2018
 
 - title: Supervision
   type: nested_list
@@ -176,13 +169,18 @@
 - title: Awards and Acknowledgements
   type: nested_list
   contents:
-    - title: NextGenerationStarProject
-      items:
-        - IROS 2024
+    - title: NextGenerationStarProject @ IROS'24
 
     - title: Outstanding reviewer 
       items:
         - BMVC 2020
+- title: Voluntary works
+  type: time_table
+  contents:
+    - title: Mentor
+      institution: <a href="https://www.yjjxj.cn/">Visionary Education Foundation</a>
+      year: 2021
+      description: volunteer to support promising young students to reach their unique & fullest potential in mainland China
 
 - title: Others
   type: nested_list
