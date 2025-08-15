@@ -112,29 +112,27 @@
 - title: Community Services
   type: nested_list
   contents:
-    - title: Editorial
+    - title: Journal Associate Editor
       items:
-        - Associate Editor, International Journal of Social Robotics (2024–present)
-        - Associate Editor, Signal Processing: Image Communication (2024)
-        - Lead Guest Editor, Special Issue “Social and Cognitive Interactions in the Open World” (2023–present)
-    - title: Area Chair
+        - International Journal of Social Robotics (SoRo)
+        - Signal Processing: Image Communication
+        - Special Issue “Social and Cognitive Interactions in the Open World” on SoRo (2023–present)
+    - title: Conference Area Chair
       items:
         - BMVC 2025
         - CVPR 2025
         - ECCV 2024
-    - title: Conference Editorial Roles
+        - ICRA 2025
+        - ICRA 2024
+    - title: Workshops Organizer
       items:
-        - Associate Editor, ICRA 2024, 2025
-    - title: Workshops & Special Sessions
+        - Workshop on Human-aware Embodied AI (HEAI) @ IROS'25
+        - Workshop on Green Foundation Models @ ECCV'24
+        - Workshop on Social and Cognitive Interactions for Assistive Robotics (SCIAR) @ IROS'22
+    - title: Conference Organization Committee 
       items:
-        - Human-aware Embodied AI (HEAI), IROS 2025
-        - Green Foundation Models, ECCV 2024
-        - Social and Cognitive Interactions for Assistive Robotics (SCIAR), IROS 2022
-        - Edge-Fog-Cloud ML, EUSIPCO 2022
-    - title: Other Roles
-      items:
-        - Virtual Organization Chair, RO-MAN 2024
-    - title: Reviewer
+        - RO-MAN 2024 (Virtual Organization Chair)
+    - title: Journal Reviewer
       items:
         - <u>Journals:</u> TPAMI, RA-L, CVIU, IJCV, TIP, TMLR, Signal, Image and Video Processing, TRO, ToMM, Neurocomputing, TNNLS
         - <u>Conferences:</u> CVPR, NeurIPS, WACV, ECCV, ICCV, ICRA, BMVC, ICIAP, IROS, T4S, ICLR, IJCAI, ICPR, AAAI
