@@ -6,7 +6,7 @@
     - name: Email
       value: ywang@fbk.eu
     - name: Affiliation
-      value: Fondazione Bruno Kessler (FBK), Center of Augmented Intelligence
+      value: Fondazione Bruno Kessler (FBK)
     - name: Research Interests
       value: Robotic automation, semantic scene understanding, and grounding for social good.
 
@@ -14,17 +14,18 @@
   type: time_table
   contents:
     - title: Abilitazione Scientifica Nazionale (Italy)
-      institution: Sectors 01/B1 - Informatica, 09/H1 - Sistemi di Elaborazione delle Informazioni
+      institution: Ministero dell'Università e della Ricerca
+      description: Sectors 01/B1 - Informatica, 09/H1 - Sistemi di Elaborazione delle Informazioni
       year: 2024–2035
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Electronic Engineering
+    - title: PhD in Electronic Engineering
       institution: Queen Mary University of London (QMUL)
-      year: 2018
+      year: 2013-2018
       description: advised by Prof. Andrea Cavallaro and Dr. Yi-Zhe Song
-    - title: B.Sc. in Engineering (Honours)
+    - title: BSc in Engineering (Honours)
       institution: QMUL and Beijing University of Posts and Telecommunications (BUPT)
       year: 2009–2013
       description: Ranked 4th of 355 students
@@ -35,7 +36,7 @@
     - title: Researcher
       institution: Deep Visual Learning (DVL) Unit, FBK
       year: 2021–present
-      description: EU projects, proposal writing, supervision of PhD & MSc students
+      description: Research and development of EU projects, project proposal writing, supervision of PhD & MSc students
     - title: Affiliated Researcher
       institution: Pattern Analysis and Computer Vision (PAVIS) Lab, IIT
       year: 2021–present
@@ -43,18 +44,18 @@
     - title: Postdoc Researcher
       institution: PAVIS Lab, IIT
       year: 2018–2021
-      description: Research, supervision, EU project support
+      description: Research and development of industrial projects, supervision of PhD & MSc students, EU project proposal writing
 
 - title: Research Projects
   type: time_table
   contents:
     - title: "SketchReal - Your sketched inspiration, rendered real!"
-      institution: FAIR technology transfer, 62k
+      institution: FAIR technology transfer, 62k €
       role: Principle Investigator
       year: 2023–present
       description: To advance the development of the research project exploiting generative models for fashion design process.
     - title: "LoCa AI: A low-carbon AI development paradigm via knowledge augmentation"
-      institution: CariVerona project, 90k
+      institution: CariVerona project, 90k €
       role: Principle Investigator
       year: 2023–present
       description: to develop training-efficient solutions for SMEs with large pre-trained models.
@@ -75,7 +76,7 @@
       description: to advance fundamental research on energy-efficient AI solutions.
     - title: "PRECRISIS: Protecting Public Spaces Through Integrated Smarter Innovative Security"
       institution: EU ISF project
-      Role: WP Leader
+      role: WP Leader
       year: 2023–2025
       description: to develop video solutions that help identifying potential vulnerabilities of urban public spaces and simulating plausible scenarios before, during and after any terrorist attacks or violent acts.
     - title: "MARVEL: Multimodal Extreme Scale Data Analytics for Smart Cities Environments"
@@ -106,7 +107,7 @@
 
     - title: Introduction to Computer Vision MSc
       institution: Queen Mary University of London
-      year: "2013/14, 2014/15, 2015/16" 
+      year: "2013/14-2015/16" 
       description: Teaching assistant, 134 students
 
     - title: Data Mining MSc
@@ -124,7 +125,7 @@
 - title: Supervision
   type: nested_list
   contents:
-    - title: Ph.D. students
+    - title: PhD students
       items:
         - Seyed Saber Mohammadi (University of Genova, with Alessio Del Bue)
         - Francesco Giuliari (University of Genova, with Alessio Del Bue)
@@ -132,7 +133,7 @@
         - Francesco Taioli (Polytechnic University of Turin, with Marco Cristani)
         - Nicola Dall'Asen (Polytechnic University of Turin, with Elisa Ricci)
         - Luca Zanella (University of Trento, with Elisa Ricci)
-        - Benedetti Liberatori (University of Trento, with Elisa Ricci)
+        - Benedetta Liberatori (University of Trento, with Elisa Ricci)
         - Youjie Zhou (Shandong University, with Fabio Poiesi and Yi Wan)
         - Runyu Jiao (University of Trento, with Fabio Poiesi)
         - Federico Girella (University of Verona, with Marco Cristani)
@@ -141,7 +142,7 @@
     - title: MSc students
       items:
         - Marco Carletti (University of Verona)
-        - Benedetti Liberatori (University of Trieste)
+        - Benedetta Liberatori (University of Trieste)
         - Nicola Dall'Asen (University of Trento)
         - Maurizio Patrick De Marchi (University of Trento)
         - Antoniopio Padalino (University of Trento)
@@ -166,8 +167,8 @@
         - Special Issue “Social and Cognitive Interactions in the Open World” on SoRo (2023–present)
     - title: Conference Area Chair
       items:
+        - CVPR 2025/26
         - BMVC 2025
-        - CVPR 2025
         - ECCV 2024
         - ICRA 2025
         - ICRA 2024
