@@ -196,15 +196,15 @@ ul.timeline li::before {
 }
 
 .role-badge {
-  background-color: var(--global-theme-color) !important;
-  color: var(--global-bg-color);   /* matches badge-toc style */
+  color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
   font-size: 0.7rem;
   font-weight: 700;                /* same as badge-toc */
   padding: 0.125rem 0.5rem;        /* same padding as badge-toc */
   border-radius: 0.125rem;         /* consistent with badge-toc */
   margin-left: 0.5em;
-  text-transform: uppercase;
   display: inline-block;
+  inline-size: fit-content;
   vertical-align: middle;
 }
 
