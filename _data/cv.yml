@@ -48,36 +48,44 @@
 - title: Research Projects
   type: time_table
   contents:
-    - title: "SketchReal - Your sketched inspiration, rendered real! [Principle Investigator]"
+    - title: "SketchReal - Your sketched inspiration, rendered real!"
       institution: FAIR technology transfer, 62k
+      role: Principle Investigator
       year: 2023–present
       description: To advance the development of the research project exploiting generative models for fashion design process.
-    - title: "LoCa AI: A low-carbon AI development paradigm via knowledge augmentation [Principle Investigator]"
+    - title: "LoCa AI: A low-carbon AI development paradigm via knowledge augmentation"
       institution: CariVerona project, 90k
+      role: Principle Investigator
       year: 2023–present
       description: to develop training-efficient solutions for SMEs with large pre-trained models.
-    - title: "Swarmchetrate: Application-level Swarm-based Orchestration Across the Cloud-to-Edge Continuum [Task Leader]"
+    - title: "Swarmchetrate: Application-level Swarm-based Orchestration Across the Cloud-to-Edge Continuum"
       institution: EU project
+      role: Task Leader
       year: 2024–present
       description: to developing AI-enhanced solution for orchestrating micro-services inside the edge-cloud continuum.
-    - title: "FAIR - Future Artificial Intelligence Research Foundation, Spoke 2 integrative AI [Researcher]"
+    - title: "FAIR - Future Artificial Intelligence Research Foundation, Spoke 2 integrative AI"
       institution: NextGenerationEU
+      role: Researcher
       year: 2022–present
       description: to advance fundamental research on multimodal AI.
-    - title: "ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing [Researcher]"
+    - title: "ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing"
       institution: NextGenerationEU
+      role: Researcher
       year: 2022–present
       description: to advance fundamental research on energy-efficient AI solutions.
-    - title: "PRECRISIS: Protecting Public Spaces Through Integrated Smarter Innovative Security [WP Leader]"
+    - title: "PRECRISIS: Protecting Public Spaces Through Integrated Smarter Innovative Security"
       institution: EU ISF project
+      Role: WP Leader
       year: 2023–2025
       description: to develop video solutions that help identifying potential vulnerabilities of urban public spaces and simulating plausible scenarios before, during and after any terrorist attacks or violent acts.
-    - title: "MARVEL: Multimodal Extreme Scale Data Analytics for Smart Cities Environments [Task Leader]"
+    - title: "MARVEL: Multimodal Extreme Scale Data Analytics for Smart Cities Environments"
       institution: EU H2020 project
+      role: Task Leader
       year: 2021-2024
       description: to provide a privacy-preserving video solution that serves the construction of smart cities.
-    - title: "PROTECTOR: PROTECTing places of wORship [Task Leader]"
+    - title: "PROTECTOR: PROTECTing places of wORship"
       institution: EU ISF project
+      role: Task Leader
       year: 2021–2023
       description: to provide video-based solutions for early alerts to protect sites of religious importance.
 
