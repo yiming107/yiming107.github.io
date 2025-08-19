@@ -42,7 +42,7 @@
       year: 2021–present
       description: Collaboration and student supervision
     - title: Postdoc Researcher
-      institution: PAVIS Lab, IIT
+      institution: <a href="https://pavis.iit.it/">Pattern Analysis and Computer Vision (PAVIS)</a> research line, IIT
       year: 2018–2021
       description: Research and development of industrial projects, supervision of PhD & MSc students, EU project proposal writing
 
@@ -217,6 +217,8 @@
   type: nested_list
   contents:
     - title: <a href="https://www.youtube.com/watch?v=cSC_8F11Ve4">NextGenerationStarProject</a> @ IROS'24
+    
+    - title: Winner of <a href="https://multion-challenge.cs.sfu.ca/index.html</a> Multi-Object Navigation (MultiON) Challenge @EAI workshop, CVPR'24
 
     - title: Outstanding reviewer 
       items:
