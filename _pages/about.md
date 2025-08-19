@@ -3,7 +3,7 @@ layout: about
 title: "Yiming Wang <img src='/assets/img/chinese_name.png' alt='Chinese name' style='height:20px; vertical-align:middle; margin-left:8px;'>"
 permalink: /
 
-subtitle: <a href='https://www.fbk.eu/en/'>Researcher @ Fondazione Bruno Kessler</a>
+subtitle: <a href='https://www.fbk.eu/en/'>Senior Researcher @ Fondazione Bruno Kessler</a>
 
 profile:
   align: left
