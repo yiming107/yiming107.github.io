@@ -2,18 +2,18 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-# discord_id: yiming3294 # your discord id (18-digit unique numerical identifier)
-email: ywang@fbk.eu # your email address
+# discord_id: yiming3294
+email: ywang@fbk.eu
 
-github_username: yiming107# your GitHub user name
+github_username: yiming107
 
-linkedin_username: yiming-wang-8b878685 # your LinkedIn user name
+linkedin_username: yiming-wang-8b878685
 x_username: YimingWang107
-orcid_id: 0000-0002-5932-4371# your ORCID ID
+orcid_id: 0000-0002-5932-4371
 
-scholar_userid: KBZ3zrEAAAAJ # your Google Scholar ID
+scholar_userid: KBZ3zrEAAAAJ
 
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any 
 # work_url: # work page URL
-youtube_id: yimingwang2498 # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: yimingwang2498
