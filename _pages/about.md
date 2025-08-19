@@ -16,8 +16,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
-Hi! I am Yiming, a researcher at <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a>. 
-I am enthusiastic on robotic perception, covering diverse topics related to 2D/3D scene representation, scene semantic understanding and embodied navigation/manipulation. My recent research focuses on efficient adaptation and tuning-free exploitation of foundation models to address embodied perception and reasoning in the image, video and 3D domains.
+Hi! I am Yiming, a senior researcher at <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a>. 
+I am enthusiastic on robotic perception, covering diverse topics related to 2D/3D scene representation, scene semantic understanding and embodied navigation/manipulation. My recent research focuses on leveraging multimodal foundation models for embodied perception and reasoning.
 I am a member of <a href="https://ellis.eu/">ELLIS</a>.
 
 
