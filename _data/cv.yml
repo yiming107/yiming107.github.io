@@ -164,7 +164,7 @@
       items:
         - International Journal of Social Robotics (SoRo)
         - "Signal Processing: Image Communication"
-        - "Special Issue <a href="https://link.springer.com/journal/12369/updates/24073292">Social and Cognitive Interactions in the Open World</a> on SoRo (2023–present)"
+        - Special Issue <a href="https://link.springer.com/journal/12369/updates/24073292">Social and Cognitive Interactions in the Open World</a> on SoRo (2023–present)
     - title: Conference Area Chair
       items:
         - CVPR 2025/26
@@ -182,8 +182,9 @@
         - <a href="https://www.ro-man2024.org/">IEEE International Conference on Robot and Human Interactive Communication (IEEE RO-MAN 2024)</a>, Virtual Organization Chair
     - title: Reviewers
       items:
-        - <b>Journals:</b> TPAMI, RA-L, CVIU, IJCV, TIP, TRO, Transactions on Machine Learning Research (TMLR), ournal of Signal, Image and Video Processing, IEEE Transactions on Human Machine Interactions, IEEE Transactions on Multimedia (ToMM), Neurocomputing Journal, IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+        - <b>Journals:</b> TPAMI, RA-L, CVIU, IJCV, TIP, TRO, Transactions on Machine Learning Research (TMLR), Journal of Signal, Image and Video Processing, IEEE Transactions on Human Machine Interactions, IEEE Transactions on Multimedia (ToMM), Neurocomputing Journal, IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
         - <b>Conferences:</b> CVPR, NeurIPS, WACV, ECCV, ICCV, ICRA, BMVC, ICIAP, IROS, Int’l Conf. on Learning Representations (ICLR), Int’l Joint Conf. on Artificial Intelligence (IJCAI), Int’l Conf. on Pattern Recognition (ICPR), Annual AAAI Conf. on Artificial Intelligence (AAAI)
+    
     - title: PhD Examination
       items:
         - Federico Cunico (2025), Andrea Toaiari (2025), Andrea Avogaro (2025), Christian Joppi (2022)
