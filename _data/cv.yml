@@ -24,7 +24,7 @@
     - title: PhD in Electronic Engineering
       institution: Queen Mary University of London (QMUL)
       year: 2013-2018
-      description: advised by Prof. Andrea Cavallaro and Dr. Yi-Zhe Song
+      description: Advised by <a href="https://people.epfl.ch/andrea.cavallaro?lang=en">Prof. Andrea Cavallaro</a> and <a href="https://www.surrey.ac.uk/people/yi-zhe-song">Prof. Yi-Zhe Song</a>
     - title: BSc in Engineering (Honours)
       institution: QMUL and Beijing University of Posts and Telecommunications (BUPT)
       year: 2009–2013
@@ -34,11 +34,11 @@
   type: time_table
   contents:
     - title: Researcher
-      institution: Deep Visual Learning (DVL) Unit, FBK
+      institution: <a href="https://dvl.fbk.eu/">Deep Visual Learning (DVL)</a> Unit, FBK
       year: 2021–present
       description: Research and development of EU projects, project proposal writing, supervision of PhD & MSc students
     - title: Affiliated Researcher
-      institution: Pattern Analysis and Computer Vision (PAVIS) Lab, IIT
+      institution: <a href="https://pavis.iit.it/">Pattern Analysis and Computer Vision (PAVIS)</a> research line, IIT
       year: 2021–present
       description: Collaboration and student supervision
     - title: Postdoc Researcher
@@ -93,34 +93,35 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: "Bringing Perception to Social Robots: An introductory course PhD"
+    - title: "Bringing Perception to Social Robots: An introductory course"
       institution: IECS Doctoral School, University of Trento
       year: "May 2022"
       role: Teacher
-      description: 15 students, 20 hours
+      description: PhD course, 15 students, 20 hours
 
-    - title: Introduction to Machine Learning MSc
+    - title: Introduction to Machine Learning
       institution: University of Trento
       year: "2023/24"
       role: Teacher
-      description: 52 students, 40 hours
+      description: MSc course, 52 students, 40 hours
 
-    - title: Introduction to Computer Vision MSc
+    - title: Introduction to Computer Vision
       institution: Queen Mary University of London
       year: "2013/14-2015/16" 
-      description: Teaching assistant, 134 students
+      role: TA
+      description: MSc course, 134 students
 
-    - title: Data Mining MSc
+    - title: Data Mining
       institution: Queen Mary University of London
       year: "2016/17" 
       role: TA
-      description: 154 students
+      description: MSc course, 154 students
 
-    - title: Machine Learning MSc
+    - title: Machine Learning
       institution: Queen Mary University of London
       year: "2016/17" 
       role: TA
-      description: 75 students
+      description: MSc course, 75 students
 
 - title: Supervision
   type: nested_list
@@ -141,11 +142,10 @@
 
     - title: MSc students
       items:
-        - Marco Carletti (University of Verona)
         - Benedetta Liberatori (University of Trieste)
         - Nicola Dall'Asen (University of Trento)
         - Maurizio Patrick De Marchi (University of Trento)
-        - Antoniopio Padalino (University of Trento)
+        - Antonio Padalino (University of Trento)
         - Michele Presutto (University of Trento)
         - Alessandro De Ferrari (University of Trento)
         - Yuhang Jiang (University of Trento)
@@ -163,8 +163,8 @@
     - title: Journal Associate Editor
       items:
         - International Journal of Social Robotics (SoRo)
-        - Signal Processing: Image Communication
-        - Special Issue “Social and Cognitive Interactions in the Open World” on SoRo (2023–present)
+        - "Signal Processing: Image Communication"
+        - "Special Issue <a href="https://link.springer.com/journal/12369/updates/24073292">Social and Cognitive Interactions in the Open World</a> on SoRo (2023–present)"
     - title: Conference Area Chair
       items:
         - CVPR 2025/26
@@ -174,25 +174,25 @@
         - ICRA 2024
     - title: Workshops Organizer
       items:
-        - Workshop on Human-aware Embodied AI (HEAI) @ IROS'25
-        - Workshop on Green Foundation Models @ ECCV'24
-        - Workshop on Social and Cognitive Interactions for Assistive Robotics (SCIAR) @ IROS'22
+        - <a href="https://heai-iros25-workshop.github.io/">Workshop on Human-aware Embodied AI (HEAI)</a> @ IROS'25
+        - <a href="https://green-fomo.github.io/ECCV2024/">Workshop on Green Foundation Models (GreenFOMO)</a> @ ECCV'24
+        - <a href="https://sciar-workshop.github.io/">Workshop on Social and Cognitive Interactions for Assistive Robotics (SCIAR)</a> @ IROS'22
     - title: Conference Organization Committee 
       items:
-        - RO-MAN 2024 (Virtual Organization Chair)
-    - title: Journal Reviewer
+        - <a href="https://www.ro-man2024.org/">IEEE International Conference on Robot and Human Interactive Communication (IEEE RO-MAN 2024)</a>, Virtual Organization Chair
+    - title: Reviewers
       items:
-        - <u>Journals:</u> TPAMI, RA-L, CVIU, IJCV, TIP, TMLR, Signal, Image and Video Processing, TRO, ToMM, Neurocomputing, TNNLS
-        - <u>Conferences:</u> CVPR, NeurIPS, WACV, ECCV, ICCV, ICRA, BMVC, ICIAP, IROS, T4S, ICLR, IJCAI, ICPR, AAAI
+        - <b>Journals:</b> TPAMI, RA-L, CVIU, IJCV, TIP, TRO, Transactions on Machine Learning Research (TMLR), ournal of Signal, Image and Video Processing, IEEE Transactions on Human Machine Interactions, IEEE Transactions on Multimedia (ToMM), Neurocomputing Journal, IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+        - <b>Conferences:</b> CVPR, NeurIPS, WACV, ECCV, ICCV, ICRA, BMVC, ICIAP, IROS, Int’l Conf. on Learning Representations (ICLR), Int’l Joint Conf. on Artificial Intelligence (IJCAI), Int’l Conf. on Pattern Recognition (ICPR), Annual AAAI Conf. on Artificial Intelligence (AAAI)
     - title: PhD Examination
       items:
-        - Federico Cunico (2025), Andrea Toaiari (2025), Andrea Avogaro (2025), Christian Jopp (2022)
+        - Federico Cunico (2025), Andrea Toaiari (2025), Andrea Avogaro (2025), Christian Joppi (2022)
 
 - title: Invited talks
   type: time_table
   contents:
     - title: "LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing"
-      institution: ICCV, oral presentation
+      institution: Oral presentation @ ICCV
       year: 2025
     - title: "Generative AI for creative industry - an exploration in fashion design"
       institution: Wired Next Fest
@@ -215,12 +215,11 @@
 - title: Awards and Acknowledgements
   type: nested_list
   contents:
-    - title: NextGenerationStarProject @ IROS'24
+    - title: <a href="https://www.youtube.com/watch?v=cSC_8F11Ve4">NextGenerationStarProject</a> @ IROS'24
 
     - title: Outstanding reviewer 
       items:
-        - BMVC 2020
-  
+        - <a href="https://www.bmvc2020-conference.com/people/reviewers/">BMVC 2020</a> 
     - title: CSC PhD Scholarship
 
 - title: Voluntary works
@@ -236,7 +235,8 @@
   contents:
     - title: Membership
       items:
-        - ELLIS society
-        - ELLIS Unit Trento
-        - Computer Vision Foundation
-        - IEEE
+        - <a href="https://ellis.eu/">ELLIS society</a>
+        - <a href="https://ellis.eu/units/trento">ELLIS Unit Trento</a>
+        - <a href="https://www.cvpl.it/en/">Italian Association for Computer Vision, Pattern Recognition and Machine Learning (CVPL)</a>
+        - <a href="https://www.thecvf.com/">Computer Vision Foundation (CVF)</a>
+        - <a href="https://www.ieee.org/">IEEE</a>
