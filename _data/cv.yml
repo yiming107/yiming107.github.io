@@ -8,8 +8,7 @@
     - name: Affiliation
       value: Fondazione Bruno Kessler (FBK)
     - name: Research Interests
-      value: Robotic automation, semantic scene understanding, and grounding for social good.
-
+      value: robotic perception, 2D/3D scene understanding, multimodal foundation models, embodied reasoning
 - title: Qualifications
   type: time_table
   contents:
