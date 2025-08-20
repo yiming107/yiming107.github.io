@@ -3,7 +3,7 @@ layout: about
 title: "Yiming Wang <img src='/assets/img/chinese_name.png' alt='Chinese name' style='height:20px; vertical-align:middle; margin-left:8px;'>"
 permalink: /
 
-subtitle: <a href='https://www.fbk.eu/en/'>Senior Researcher @ Fondazione Bruno Kessler</a>
+subtitle: <a href="https://dvl.fbk.eu/">Senior Researcher @ Fondazione Bruno Kessler</a>
 
 profile:
   align: left
@@ -16,7 +16,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
-Hi! I am Yiming, a senior researcher at <a href='https://www.fbk.eu/en/'>Fondazione Bruno Kessler</a>. 
+Hi! I am Yiming, a senior researcher at <a href="https://dvl.fbk.eu/">Fondazione Bruno Kessler</a>. 
 I am enthusiastic on robotic perception, covering diverse topics related to 2D/3D scene representation, scene semantic understanding and embodied navigation/manipulation. My recent research focuses on leveraging multimodal foundation models for embodied perception and reasoning.
 I am a member of <a href="https://ellis.eu/">ELLIS</a>.
 

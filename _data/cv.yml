@@ -125,11 +125,8 @@
 - title: Supervision
   type: nested_list
   contents:
-    - title: PhD students
+    - title: Ongoing PhD students
       items:
-        - Seyed Saber Mohammadi (University of Genova, with Alessio Del Bue)
-        - Francesco Giuliari (University of Genova, with Alessio Del Bue)
-        - Alessandro Conti (University of Trento, with Elisa Ricci)
         - Francesco Taioli (Polytechnic University of Turin, with Marco Cristani)
         - Nicola Dall'Asen (Polytechnic University of Turin, with Elisa Ricci)
         - Luca Zanella (University of Trento, with Elisa Ricci)
@@ -139,16 +136,24 @@
         - Federico Girella (University of Verona, with Marco Cristani)
         - Zanxi Ruan (University of Verona, with Marco Cristani)
 
+    - title: Graduated PhD students
+      items:
+        - Seyed Saber Mohammadi (University of Genova, with Alessio Del Bue)
+        - Francesco Giuliari (University of Genova, with Alessio Del Bue)
+        - Alessandro Conti (University of Trento, with Elisa Ricci)
+        
+
     - title: MSc students
       items:
-        - Benedetta Liberatori (University of Trieste)
-        - Nicola Dall'Asen (University of Trento)
-        - Maurizio Patrick De Marchi (University of Trento)
-        - Antonio Padalino (University of Trento)
-        - Michele Presutto (University of Trento)
-        - Alessandro De Ferrari (University of Trento)
-        - Yuhang Jiang (University of Trento)
-        - Samuele Angheben (University of Trento)
+        - Nicola Dall'Asen (2021, University of Trento)
+        - Benedetta Liberatori (2022, University of Trieste)
+        - Giulio Mattolin (2022, University of Trento)
+        - Maurizio Patrick De Marchi (2023, University of Trento)
+        - Antonio Padalino (2023, University of Trento)
+        - Michele Presutto (2024, University of Trento)
+        - Alessandro De Ferrari (2024, University of Trento)
+        - Yuhang Jiang (2025, University of Trento)
+        - Samuele Angheben (2025, University of Trento)
     
     - title: BSc students
       items:
