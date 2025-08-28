@@ -198,25 +198,30 @@
   contents:
     - title: "LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing"
       institution: Oral presentation @ ICCV
-      year: 2025
-    - title: "Generative AI for creative industry - an exploration in fashion design"
+      year: Oct 2025
+    - title: "Embodied reasoning in nuanced human-centric environments"
+      institution: Zhejiang University
+      year: Oct 2025
+    - title: "Multimodal Generative AI: how we explore it for fashion design"
       institution: Wired Next Fest
-      year: 2025
+      year: Oct 2025
     - title: "Seeing the Abstract: Translating the Abstract Language for Vision Language Models"
       institution: ResearchTrendAI
-      year: 2025
+      year: May 2025
+      description: presented by Davide Talon
     - title: "Addressing vision tasks with large foundation models"
       institution: Hefei University of Science and Technology
-      year: 2024
+      year: Dec 2024
     - title: "Addressing vision tasks with large foundation models"
       institution: University of Verona
-      year: 2024
+      year: Jun 2024
     - title: "Addressing vision tasks with large foundation models"
       institution: University of Bocconi
-      year: 2024
+      year: Dec 2024
     - title: "Test-Time Zero-Shot Temporal Action Localization"
       institution: TwelveLabs
-      year: 2024
+      year: Oct 2024
+      description: presented by Benedetta Liberatori
 - title: Awards and Acknowledgements
   type: nested_list
   contents:
