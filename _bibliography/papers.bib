@@ -1,5 +1,28 @@
 ---
 ---
+@inproceedings{zanella2025baglm,
+  bibtex_show={true}, 
+  title={Training-free Online Video Step Grounding},
+  author={Zanella, Luca and Mancini, Massimiliano and Wang, Yiming and Tonioni, Alessio and Ricci, Elisa},
+  booktitle={Proceedings of Neural Information Processing Systems (NeurIPS)},
+  year={2025},
+  preview={neurips25-baglm.png},
+  selected={true},
+  abstract={Given a task and a set of steps composing it, Video Step Grounding (VSG) aims to detect which steps are performed in a video. Standard approaches for this task require a labeled training set (e.g., with step-level annotations or narrations), which may be costly to collect. Moreover, they process the full video offline, limiting their applications for scenarios requiring online decisions. Thus, in this work, we explore how to perform VSG online and without training. We achieve this by exploiting the zero-shot capabilities of recent Large Multimodal Models (LMMs). In particular, we use LMMs to predict the step associated with a restricted set of frames, without access to the whole video. We show that this online strategy without task-specific tuning outperforms offline and training-based models. Motivated by this finding, we develop Bayesian Grounding with Large Multimodal Models (BAGLM), further injecting knowledge of past frames into the LMM-based predictions. BAGLM exploits Bayesian filtering principles, modeling step transitions via (i) a dependency matrix extracted through large language models and (ii) an estimation of step progress. Experiments on three datasets show superior performance of BAGLM over state-of-the-art training-based offline methods.}
+}
+
+
+@inproceedings{liberatori2025convis,
+  bibtex_show={true}, 
+  title={ConViS-Bench: Estimating Video Similarity Through Semantic Concepts},
+  author={Liberatori, Benedetta and Conti, Alessandro and Vaquero, Lorenzo and Wang, Yiming and Ricci, Elisa and Rota, Paolo},
+  booktitle={Proceedings of Neural Information Processing Systems (NeurIPS)},
+  year={2025},
+  preview={neurips25-convis.png},
+  selected={true},
+  abstract={What does it mean for two videos to be similar? Videos may appear similar when judged by the actions they depict, yet entirely different if evaluated based on the locations where they were filmed. While humans naturally compare videos by taking different aspects into account, this ability has not been thoroughly studied and presents a challenge for models that often depend on broad global similarity scores. Large Multimodal Models (LMMs) with video understanding capabilities open new opportunities for leveraging natural language in comparative video tasks. We introduce Concept-based Video Similarity estimation (ConViS), a novel task that compares pairs of videos by computing interpretable similarity scores across a predefined set of key semantic concepts. ConViS allows for human-like reasoning about video similarity and enables new applications such as concept-conditioned video retrieval. To support this task, we also introduce ConViS-Bench, a new benchmark comprising carefully annotated video pairs spanning multiple domains. Each pair comes with concept-level similarity scores and textual descriptions of both differences and similarities. Additionally, we benchmark several state-of-the-art models on ConViS, providing insights into their alignment with human judgments. Our results reveal significant performance differences on ConViS, indicating that some concepts present greater challenges for estimating video similarity. We believe that ConViS-Bench will serve as a valuable resource for advancing research in language-driven video understanding.}
+}
+
 @inproceedings{girella2025lots,
   bibtex_show={true}, 
   title={LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing},
