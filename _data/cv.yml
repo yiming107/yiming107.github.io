@@ -178,7 +178,7 @@
         - ICRA 2024
     - title: Workshops Organizer
       items:
-        - <a href="https://heai-iros25-workshop.github.io/">Workshop on Human-aware Embodied AI (HEAI)</a> @ IROS'25
+        - <a href="https://heai-iros25-workshop.github.io/">Workshop on Human-Aware Embodied AI (HEAI)</a> @ IROS'25
         - <a href="https://green-fomo.github.io/ECCV2024/">Workshop on Green Foundation Models (GreenFOMO)</a> @ ECCV'24
         - <a href="https://sciar-workshop.github.io/">Workshop on Social and Cognitive Interactions for Assistive Robotics (SCIAR)</a> @ IROS'22
     - title: Conference Organization Committee 
@@ -199,10 +199,8 @@
     - title: "LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing"
       institution: Oral presentation @ ICCV
       year: Oct 2025
-    - title: "Embodied reasoning in nuanced human-centric environments"
-      institution: Zhejiang University
-      year: Oct 2025
-    - title: "Multimodal Generative AI: how we explore it for fashion design"
+      description: presented by Federico Girela
+    - title: <a href="https://www.wired.it/video/watch/le-interviste-del-wired-next-fest-2025-trentino-yiming-wang-e-lembodied-ai-raccontati-al-wired-next-fest-trentino-2025">"Robot friend"</a>
       institution: Wired Next Fest
       year: Oct 2025
     - title: "Seeing the Abstract: Translating the Abstract Language for Vision Language Models"
