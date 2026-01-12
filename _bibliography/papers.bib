@@ -1,5 +1,31 @@
 ---
 ---
+@inproceedings{liberatori2026tegu,
+  bibtex_show={true}, 
+  title={Zero-Shot Temporal Action Localization Through Textual Guidance},
+  author={Liberatori, Benedetta and Conti, Alessandro and Vaquero, Lorenzo and Rota, Paolo and Wang, Yiming and Ricci, Elisa},
+  booktitle={Proceedings of IEEE conference on Automatic Face and Gesture Recognition (FG)},
+  year={2026},
+  preview={fg26-tegu.png},
+  selected={false},
+  abstract={Zero-shot temporal action localization (ZS-TAL) consists of classifying and localizing actions in untrimmed videos, where action classes are unseen at training time. Existing work uses Vision and Language Models (VLMs), taking advantage of their strong zero-shot transfer capabilities. Yet, these models face evident challenges with fine-grained action classification, making it difficult to directly use them to distinguish between the presence and absence of an action. Most current methods for ZS-TAL address these challenges by training models on large-scale video datasets, which require annotated data and often result in limited generalization performance. Recently, approaches discarding the use of labeled data have emerged as an alternative. Following this direction, we propose a novel approach, “Textual Guidance for finer localization of actions in videos” (TEGU), that compensates for the lack of supervision from training data by exploiting rich textual information derived from large language models and structured text extracted from captions. This additional linguistic context can improve fine-grained discrimination by providing richer cues about fine-grained action differences within videos. We validate the effectiveness of the proposed method by conducting experiments on the THUMOS14 and the ActivityNet-v1.3 datasets. Our results show that, by exploiting rich textual information for improved action localization, TEGU outperforms state-of-the-art ZS-TAL approaches that do not involve training.}
+}
+
+
+@inproceedings{conti2026tpami,
+  bibtex_show={true},
+  title={Vocabulary-free Image Classification and Semantic Segmentation},
+  author={Conti, Alessandro and Fini, Enrico and Mancini, Massimiliano and Rota, Paolo and Wang, Yiming and Ricci, Elisa},
+  booktitle={Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2026},
+  preview={tpami26-openworld-ss.png},
+  pdf={https://arxiv.org/pdf/2404.10864},
+  html={https://github.com/altndrr/vicss}, 
+  selected={true},
+  abstract={Large vision-language models revolutionized image classification and semantic segmentation paradigms. However, they typically assume a pre-defined set of categories, or vocabulary, at test time for composing textual prompts. This assumption is impractical in scenarios with unknown or evolving semantic context. Here, we address this issue and introduce the Vocabulary-free Image Classification (VIC) task, which aims to assign a class from an unconstrained language-induced semantic space to an input image without needing a known vocabulary. VIC is challenging due to the vastness of the semantic space, which contains millions of concepts, including fine-grained categories. To address VIC, we propose Category Search from External Databases (CaSED), a training-free method that leverages a pre-trained vision-language model and an external database. CaSED first extracts the set of candidate categories from the most semantically similar captions in the database and
+then assigns the image to the best-matching candidate category according to the same vision-language model. Furthermore, we demonstrate that CaSED can be applied locally to generate a coarse segmentation mask that classifies image regions, introducing the task of Vocabulary-free Semantic Segmentation. CaSED and its variants outperform other more complex vision-language models, on classification and semantic segmentation benchmarks, while using much fewer parameters.}
+}
+
 @inproceedings{zanella2025baglm,
   bibtex_show={true}, 
   title={Training-free Online Video Step Grounding},
@@ -7,6 +33,8 @@
   booktitle={Proceedings of Neural Information Processing Systems (NeurIPS)},
   year={2025},
   preview={neurips25-baglm.png},
+  html={https://lucazanella.github.io/baglm/},  
+  pdf={https://arxiv.org/pdf/2510.16989},
   selected={true},
   abstract={Given a task and a set of steps composing it, Video Step Grounding (VSG) aims to detect which steps are performed in a video. Standard approaches for this task require a labeled training set (e.g., with step-level annotations or narrations), which may be costly to collect. Moreover, they process the full video offline, limiting their applications for scenarios requiring online decisions. Thus, in this work, we explore how to perform VSG online and without training. We achieve this by exploiting the zero-shot capabilities of recent Large Multimodal Models (LMMs). In particular, we use LMMs to predict the step associated with a restricted set of frames, without access to the whole video. We show that this online strategy without task-specific tuning outperforms offline and training-based models. Motivated by this finding, we develop Bayesian Grounding with Large Multimodal Models (BAGLM), further injecting knowledge of past frames into the LMM-based predictions. BAGLM exploits Bayesian filtering principles, modeling step transitions via (i) a dependency matrix extracted through large language models and (ii) an estimation of step progress. Experiments on three datasets show superior performance of BAGLM over state-of-the-art training-based offline methods.}
 }
@@ -19,6 +47,8 @@
   booktitle={Proceedings of Neural Information Processing Systems (NeurIPS)},
   year={2025},
   preview={neurips25-convis.png},
+  html={https://benedettaliberatori.github.io/convisbench/},  
+  pdf={https://arxiv.org/abs/2509.19245},
   selected={true},
   abstract={What does it mean for two videos to be similar? Videos may appear similar when judged by the actions they depict, yet entirely different if evaluated based on the locations where they were filmed. While humans naturally compare videos by taking different aspects into account, this ability has not been thoroughly studied and presents a challenge for models that often depend on broad global similarity scores. Large Multimodal Models (LMMs) with video understanding capabilities open new opportunities for leveraging natural language in comparative video tasks. We introduce Concept-based Video Similarity estimation (ConViS), a novel task that compares pairs of videos by computing interpretable similarity scores across a predefined set of key semantic concepts. ConViS allows for human-like reasoning about video similarity and enables new applications such as concept-conditioned video retrieval. To support this task, we also introduce ConViS-Bench, a new benchmark comprising carefully annotated video pairs spanning multiple domains. Each pair comes with concept-level similarity scores and textual descriptions of both differences and similarities. Additionally, we benchmark several state-of-the-art models on ConViS, providing insights into their alignment with human judgments. Our results reveal significant performance differences on ConViS, indicating that some concepts present greater challenges for estimating video similarity. We believe that ConViS-Bench will serve as a valuable resource for advancing research in language-driven video understanding.}
 }
