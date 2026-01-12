@@ -8,7 +8,7 @@
     - name: Affiliation
       value: Fondazione Bruno Kessler (FBK)
     - name: Research Interests
-      value: robotic perception, 2D/3D scene understanding, multimodal foundation models, embodied reasoning
+      value: multimodal perception, 2D/3D scene understanding, model adaptation, embodied perception and reasoning
 - title: Qualifications
   type: time_table
   contents:
@@ -56,7 +56,7 @@
     - title: "LoCa AI: A low-carbon AI development paradigm via knowledge augmentation"
       institution: CariVerona project, 90k €
       role: Principle Investigator
-      year: 2023–present
+      year: 2023–2025
       description: to develop training-efficient solutions for SMEs with large pre-trained models.
     - title: "Swarmchetrate: Application-level Swarm-based Orchestration Across the Cloud-to-Edge Continuum"
       institution: EU project
@@ -71,7 +71,7 @@
     - title: "ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing"
       institution: NextGenerationEU
       role: Researcher
-      year: 2022–present
+      year: 2022–2025
       description: to advance fundamental research on energy-efficient AI solutions.
     - title: "PRECRISIS: Protecting Public Spaces Through Integrated Smarter Innovative Security"
       institution: EU ISF project
@@ -191,7 +191,7 @@
     
     - title: PhD Examination
       items:
-        - Federico Cunico (2025), Andrea Toaiari (2025), Andrea Avogaro (2025), Christian Joppi (2022)
+        - Alessandro Russo (2026), Federico Cunico (2025), Andrea Toaiari (2025), Andrea Avogaro (2025), Christian Joppi (2022)
 
 - title: Invited talks
   type: time_table
