@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Glad to serve as Area Chair for <a href="https://icpr2026.org/">ICPR2026</a>!
+🎉 Glad to serve as Area Chair for ICPR 2026!
