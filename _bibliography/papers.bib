@@ -1,5 +1,62 @@
 ---
 ---
+
+@inproceedings{zanxi2026structxlip,
+  bibtex_show={true},
+  title={StructXLIP: Enhancing Vision-language Models with Multimodal Structural Cues},
+  author={Ruan, Zanxi and Gao, songqun and Kong, Qiuyu and Wang, Yiming and Cristani, Marco},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026},
+  preview={cvpr26-structxlip.png},
+  html={https://eveleslie.github.io/structxlip-web/},  
+  pdf={https://arxiv.org/pdf/2602.20089},
+  code={https://github.com/intelligolabs/StructXLIP},   
+  selected={true},
+  abstract={Edge-based representations are fundamental cues for visual understanding, a principle rooted in early vision research and still central today. We extend this principle to vision-language alignment, showing that isolating and aligning structural cues across modalities can greatly benefit fine-tuning on long, detail-rich captions, with a specific focus on improving cross-modal retrieval. We introduce StructXLIP, a fine-tuning alignment paradigm that extracts edge maps (e.g., Canny), treating them as proxies for the visual structure of an image, and filters the corresponding captions to emphasize structural cues, making them "structure-centric". Fine-tuning augments the standard alignment loss with three structure-centric losses: (i) aligning edge maps with structural text, (ii) matching local edge regions to textual chunks, and (iii) connecting edge maps to color images to prevent representation drift. From a theoretical standpoint, while standard CLIP maximizes the mutual information between visual and textual embeddings, StructXLIP additionally maximizes the mutual information between multimodal structural representations. This auxiliary optimization is intrinsically harder, guiding the model toward more robust and semantically stable minima, enhancing vision-language alignment. Beyond outperforming current competitors on cross-modal retrieval in both general and specialized domains, our method serves as a general boosting recipe that can be integrated into future approaches in a plug-and-play manner.}
+}
+
+@inproceedings{samule2026speciarl,
+  bibtex_show={true},
+  title={Specificity-aware reinforcement learning for fine-grained open-world classification},
+  author={Angheben, Samuele and Berasi, Davide and Conti, Alessandro and Ricci, Elisa and Wang, Yiming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026},
+  preview={cvpr26-speciarl.png},
+  html={https://github.com/s-angheben/SpeciaRL},  
+  pdf={https://arxiv.org/abs/2603.03197},
+  code={https://github.com/s-angheben/SpeciaRL},   
+  selected={true},
+  abstract={Classifying fine-grained visual concepts under open-world settings, i.e., without a predefined label set, demands models to be both accurate and specific. Recent reasoning Large Multimodal Models (LMMs) exhibit strong visual understanding capability but tend to produce overly generic predictions when performing fine-grained image classification. Our preliminary analysis reveals that models do possess the intrinsic fine-grained domain knowledge. However, promoting more specific predictions (specificity) without compromising correct ones (correctness) remains a non-trivial and understudied challenge. In this work, we investigate how to steer reasoning LMMs toward predictions that are both correct and specific. We propose a novel specificity-aware reinforcement learning framework, SpeciaRL, to fine-tune reasoning LMMs on fine-grained image classification under the open-world setting. SpeciaRL introduces a dynamic, verifier-based reward signal anchored to the best predictions within online rollouts, promoting specificity while respecting the model's capabilities to prevent incorrect predictions. Our out-of-domain experiments show that SpeciaRL delivers the best trade-off between correctness and specificity across extensive fine-grained benchmarks, surpassing existing methods and advancing open-world fine-grained image classification.}
+}
+
+@inproceedings{runyu2026unograsp,
+  bibtex_show={true},
+  title={Obstruction reasoning for robotic grasping},
+  author={Jiao, Runyu and Bortolon, Matteo and Giuliari, Francesco and Fasoli, Alice and Povoli, Sergio and Mei, Guofeng and Wang, Yiming and Poiesi Fabio},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026},
+  preview={cvpr26-unograsp.png},
+  html={https://tev-fbk.github.io/UnoGrasp/},  
+  pdf={https://arxiv.org/abs/2511.23186},
+  code={https://tev-fbk.github.io/UnoGrasp/},   
+  selected={true},
+  abstract={Successful robotic grasping in cluttered environments not only requires a model to visually ground a target object but also to reason about obstructions that must be cleared beforehand. While current vision-language embodied reasoning models show emergent spatial understanding, they remain limited in terms of obstruction reasoning and accessibility planning. To bridge this gap, we present UNOGrasp, a learning-based vision-language model capable of performing visually-grounded obstruction reasoning to infer the sequence of actions needed to unobstruct the path and grasp the target object. We devise a novel multi-step reasoning process based on obstruction paths originated by the target object. We anchor each reasoning step with obstruction-aware visual cues to incentivize reasoning capability. UNOGrasp combines supervised and reinforcement finetuning through verifiable reasoning rewards. Moreover, we construct UNOBench, a large-scale dataset for both training and benchmarking, based on MetaGraspNetV2, with over 100k obstruction paths annotated by humans with obstruction ratios, contact points, and natural-language instructions. Extensive experiments and real-robot evaluations show that UNOGrasp significantly improves obstruction reasoning and grasp success across both synthetic and real-world environments, outperforming generalist and proprietary alternatives.}
+}
+
+@inproceedings{guofeng2026fase3d,
+  bibtex_show={true},
+  title={Efficient Encoder-Free Fourier-based 3D Large Multimodal Model},
+  author={Mei, Guofeng and Lin, Wei and Riz, Luigi and Wu, Yujiao and Wang, Yiming and Poiesi Fabio},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026},
+  preview={cvpr26-fase3d.png},
+  html={https://tev-fbk.github.io/Fase3D/},  
+  pdf={https://arxiv.org/abs/2602.23153},
+  code={https://github.com/gfmei/fase3d},   
+  selected={true},
+  abstract={Large Multimodal Models (LMMs) that process 3D data typically rely on heavy, pre-trained visual encoders to extract geometric features. While recent 2D LMMs have begun to eliminate such encoders for efficiency and scalability, extending this paradigm to 3D remains challenging due to the unordered and large-scale nature of point clouds. This leaves a critical unanswered question: How can we design an LMM that tokenizes unordered 3D data effectively and efficiently without a cumbersome encoder? We propose Fase3D, the first efficient encoder-free Fourier-based 3D scene LMM. Fase3D tackles the challenges of scalability and permutation invariance with a novel tokenizer that combines point cloud serialization and the Fast Fourier Transform (FFT) to approximate self-attention. This design enables an effective and computationally minimal architecture, built upon three key innovations: First, we represent large scenes compactly via structured superpoints. Second, our space-filling curve serialization followed by an FFT enables efficient global context modeling and graph-based token merging. Lastly, our Fourier-augmented LoRA adapters inject global frequency-aware interactions into the LLMs at a negligible cost. Fase3D achieves performance comparable to encoder-based 3D LMMs while being significantly more efficient in computation and parameters.}
+}
+
 @inproceedings{liberatori2026tegu,
   bibtex_show={true}, 
   title={Zero-Shot Temporal Action Localization Through Textual Guidance},
