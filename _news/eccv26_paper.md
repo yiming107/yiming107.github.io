@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📢 Glad to share our paper "Personalizing MLLMs via Reinforced Multimodal Reference Game" is accepted by ECCV'26! Congrats to Deep, Davide and all!
+📢 Glad to share our paper <a href="https://arxiv.org/abs/2606.28845">Personalizing MLLMs via Reinforced Multimodal Reference Game</a> is accepted by ECCV'26! Congrats to Deep, Davide and all!
