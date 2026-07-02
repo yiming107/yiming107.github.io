@@ -92,6 +92,12 @@
 - title: Teaching
   type: time_table
   contents:
+    - title: "Advanced Machine Learning"
+      institution: DIMI, University of Verona
+      year: "March 2026"
+      role: Teacher
+      description: Master course, 24 students, 48 hours
+
     - title: "Bringing Perception to Social Robots: An introductory course"
       institution: IECS Doctoral School, University of Trento
       year: "May 2022"
@@ -102,7 +108,7 @@
       institution: University of Trento
       year: "2023/24"
       role: Teacher
-      description: MSc course, 52 students, 40 hours
+      description: MSc course, 52 students, 48 hours
 
     - title: Introduction to Computer Vision
       institution: Queen Mary University of London
