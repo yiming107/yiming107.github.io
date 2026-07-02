@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-👩🏻‍🏫 Master course **Advanced Machine Learning**, DIMI in University of Verona, semester 2025/2026. I made open my <a href="https://drive.google.com/drive/folders/17EbkXp-slEs_C7fIIkq1xVL3-tryQDFu?usp=sharing"> AML lecture notes</a>. Enjoy 🤗 
+👩🏻‍🏫 Master course **Advanced Machine Learning (AMI)**, DIMI @ University of Verona, semester 2025/2026. My <a href="https://drive.google.com/drive/folders/17EbkXp-slEs_C7fIIkq1xVL3-tryQDFu?usp=sharing"> AML lecture notes</a> is open! Enjoy 🤗 
