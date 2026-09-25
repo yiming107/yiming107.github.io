@@ -3,6 +3,17 @@
 
 @inproceedings{edo2026benchinteraction,
   bibtex_show={true},
+  title={Mitigating Saliency Collapse: Robust Saliency-Aware Long-Text Image-Text Alignment},
+  author={Kong, Qiuyu and Ruan, Zanxi and Cristani, Marco and Wang, Yiming},
+  booktitle={Proceedings of Neural Information Processing Systems (NeurIPS)},
+  year={2026},
+  preview={neurips26-rosa.png},
+  selected={true},
+  abstract={Long-text image–text alignment is essential for fine-grained scene understanding, yet existing methods mainly focus on extending context length or improving local alignment. We identify an overlooked failure mode, saliency collapse, where models over-rely on text that features visual prominence while underutilizing non-salient context. Consequently, retrieval performance degrades sharply when salient content is reduced, despite that the non-salient context remains informative. To address this, we propose RoSA, a saliency-aware finetuning framework that decomposes image-text pairs into complementary salient and contextual views, enabling joint learning of prominent and contextual semantics. We propose a modality-independent decomposition strategy to combine object-level visual saliency estimation with LLM-based text decomposition to bridge vision and language. We employ auxiliary objectives to explicitly align these views, ensuring robust representation with both salient and contextual features. RoSA greatly improves long-text retrieval and demonstrate strong robustness to saliency collapse across benchmarks. Moreover, our auxiliary objectives are plug-and-play, bringing consistent gains to existing tuning methods. Code and checkpoints will be released upon acceptance.}
+}
+
+@inproceedings{edo2026benchinteraction,
+  bibtex_show={true},
   title={Benchmarking Interaction, Beyond Policy: a Reproducible Benchmark for Collaborative Instance Object Navigation},
   author={Zorzi, Edoardo and Taioli, Francesco and Wang, Yiming and Cristani, Marco and Farinelli, Alessandro and Castellini, Alberto and Bazzani, Loris},
   booktitle={Proceedings of British Machine Vision Conference (BMVC)},
