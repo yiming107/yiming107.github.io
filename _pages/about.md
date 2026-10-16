@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
 Hi! I am Yiming, a senior researcher at <a href="https://dvl.fbk.eu/">Fondazione Bruno Kessler</a>. 
-I am enthusiastic on robotic perception, covering diverse topics related to 2D/3D scene representation, scene semantic understanding and embodied navigation/manipulation. My recent research focuses on leveraging multimodal foundation models for embodied perception and reasoning.
+I’m passionate about vision-based perception and reasoning, especially for applications built around human-AI collaboration. My recent research leverages multimodal foundation models to help embodied agents understand both their surroundings and natural-language instructions in human-centric environments. This builds on my background in 2D/3D scene representation, semantic scene understanding, embodied navigation and manipulation, and human-AI interaction.
 I am a member of <a href="https://ellis.eu/">ELLIS</a>.
 
 
