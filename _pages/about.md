@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
 Hi! I am Yiming, a senior researcher at <a href="https://dvl.fbk.eu/">Fondazione Bruno Kessler</a>. 
-I’m passionate about vision-based perception and reasoning, especially for applications built around human-AI collaboration. My recent research leverages multimodal foundation models to help embodied agents understand both their physical environments and natural-language instructions in human-centric environments. This builds on my background in 3D scene reconstruction, semantic scene understanding, active vision, perception for embodied navigation/manipulation, and human-AI interaction. I am a member of <a href="https://ellis.eu/">ELLIS</a>.
+I’m passionate about vision-based perception and reasoning for robotic automation and human-AI collaboration. My recent research leverages multimodal foundation models to help embodied agents understand both their physical surroundings and natural-language instructions in human-centric environments. In particular, I tackle what makes this hard in practice: cluttered scenes, subtle visual details, and human instructions that are ambiguous, wrong, or context-dependent. This builds on my background in 3D scene reconstruction and camera localisation, open-world semantic scene understanding, video anomaly detection, embodied perception for navigation and manipulation, and human-AI interaction. I am a member of <a href="https://ellis.eu/">ELLIS</a>.
 
 
 I work and live in Trento, a beautiful mountain city in northern Italy, providing me with great balance between nature peace and research stress :P
